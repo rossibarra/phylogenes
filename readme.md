@@ -102,20 +102,7 @@ python scripts/validate_translations.py \
 | Error — no *A. thaliana* sequence in alignment | 4 |
 | Error — other | 1 |
 
-Full per-gene results: `results/codon_annotations/summary.tsv`
-
-A cleaned per-gene notes table with standardised categories is at `results/per_gene_notes.tsv`:
-
-| `category` | Count | Meaning |
-|------------|-------|---------|
-| `exact_trimmed` | 222 | Alignment is exact substring of CDS; frame derived from match position |
-| `cds_fetch_failed` | 72 | Gene symbol not found in Ensembl Plants |
-| `assumed_seq_divergence` | 30 | Exact match failed; alignment length divisible by 3; frame 0 assumed |
-| `no_arabidopsis_entry` | 21 | Rice `LOC_Os` symbol or no *A. thaliana* sequence in alignment |
-| `other` | 5 | Exact flanked match with diagnostic warnings |
-| `assumed_version_mismatch` | 1 | Lengths differ by ≤9 bp; frame 0 assumed |
-| `error_other` | 1 | Sequence length not divisible by 3, no match |
-| `no_arabidopsis_sequence` | 1 | No `Species:Arabidopsis_thaliana` row in alignment |
+Full per-gene results: `results/codon_annotations/summary.tsv`. A cleaned version with standardised category labels is at `results/per_gene_notes.tsv`.
 
 ### Validation
 

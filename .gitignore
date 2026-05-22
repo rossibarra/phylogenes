@@ -1,0 +1,18 @@
+# large alignment files
+data/alignments/*.fasta
+data/alignments/*.fa
+data/alignments/*.fas
+results/high_confidence_alignments/*.fasta
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.env
+
+# conda
+.conda/
+
+# macOS
+.DS_Store

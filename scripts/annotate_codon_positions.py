@@ -26,6 +26,7 @@ Headers must contain Gene_Name:<symbol> and Species:<name> fields.
 """
 
 import argparse
+from datetime import UTC, datetime
 import logging
 import re
 import time
@@ -49,11 +50,11 @@ ENSEMBL_REST = "https://rest.ensembl.org"
 HEADERS = {"Content-Type": "application/json"}
 
 
-def fetch_cds_ensembl(gene_symbol: str, session: requests.Session) -> str | None:
+def fetch_cds_ensembl(gene_symbol: str, session: requests.Session) -> tuple[str, str] | tuple[None, None]:
     """
     Fetch the canonical CDS for an A. thaliana gene.
-    Uses /lookup/id/ for TAIR IDs (AT[1-5]G\d+), /lookup/symbol/ otherwise.
-    Returns the CDS as an uppercase string, or None on failure.
+    Uses /lookup/id/ for TAIR IDs, /lookup/symbol/ otherwise.
+    Returns (CDS, transcript_id), or (None, None) on failure.
     """
     # TAIR IDs (e.g. AT1G49980) use the ID endpoint; gene symbols use the symbol endpoint
     if re.match(r'^AT[1-5MC]G\d+$', gene_symbol, re.IGNORECASE):
@@ -69,13 +70,13 @@ def fetch_cds_ensembl(gene_symbol: str, session: requests.Session) -> str | None
         gene_data = r.json()
     except Exception as e:
         log.warning(f"{gene_symbol}: gene lookup failed — {e}")
-        return None
+        return None, None
 
     # Find canonical transcript
     transcripts = gene_data.get("Transcript", [])
     if not transcripts:
         log.warning(f"{gene_symbol}: no transcripts found in Ensembl")
-        return None
+        return None, None
 
     # Prefer the transcript flagged is_canonical, else take the longest CDS
     canonical = next((t for t in transcripts if t.get("is_canonical") == 1), None)
@@ -100,17 +101,17 @@ def fetch_cds_ensembl(gene_symbol: str, session: requests.Session) -> str | None
         data = r.json()
     except Exception as e:
         log.warning(f"{gene_symbol} (transcript {transcript_id}): CDS fetch failed — {e}")
-        return None
+        return None, None
 
     if isinstance(data, list):
         data = data[0]
     cds = data.get("seq", "").upper()
     if not cds:
         log.warning(f"{gene_symbol}: empty CDS returned")
-        return None
+        return None, None
 
     log.info(f"{gene_symbol}: CDS length {len(cds)} bp (transcript {transcript_id})")
-    return cds
+    return cds, transcript_id
 
 
 # ── Alignment helpers ─────────────────────────────────────────────────────────
@@ -282,7 +283,15 @@ def process_gene(
     session: requests.Session,
 ) -> dict:
     """Process a single gene. Returns a status dict for the summary report."""
-    result = {"gene": gene_id, "gene_name": "", "status": "ok", "note": ""}
+    result = {
+        "gene": gene_id,
+        "gene_name": "",
+        "status": "ok",
+        "confidence": "",
+        "ensembl_transcript_id": "",
+        "fetched_at_utc": "",
+        "note": "",
+    }
 
     # ── Load alignment ────────────────────────────────────────────────────────
     aln_file = aln_dir / f"{gene_id}{aln_suffix}"
@@ -327,11 +336,13 @@ def process_gene(
     ungapped_seq = ungap(gapped_seq)
 
     # ── Fetch CDS from Ensembl by gene symbol ─────────────────────────────────
-    cds = fetch_cds_ensembl(gene_name, session)
+    cds, transcript_id = fetch_cds_ensembl(gene_name, session)
     if cds is None:
         result["status"] = "error"
         result["note"] = f"CDS fetch failed for symbol '{gene_name}'"
         return result
+    result["ensembl_transcript_id"] = transcript_id
+    result["fetched_at_utc"] = datetime.now(UTC).isoformat(timespec="seconds")
 
     # ── Locate CDS in ungapped sequence ──────────────────────────────────────
     mode, start, end = find_cds_in_seq(ungapped_seq, cds)
@@ -347,18 +358,24 @@ def process_gene(
 
     if mode == "flanked":
         cds_start, cds_end, codon_offset = start, end, 0
+        result["confidence"] = "high"
         log.info(f"{gene_id}: exact match — CDS found within alignment (has flanking)")
     elif mode == "trimmed":
         cds_start, cds_end, codon_offset = 0, len(ungapped_seq), start
+        result["confidence"] = "high"
         log.info(f"{gene_id}: exact match — alignment is CDS subset at offset {start} (frame {start % 3})")
         result["note"] = f"assumed:frame_known trimmed CDS offset={start}"
     elif mode == "near_full":
         cds_start, cds_end, codon_offset = 0, len(ungapped_seq), 0
         diff = len(ungapped_seq) - len(cds)
+        result["status"] = "low_confidence"
+        result["confidence"] = "low"
         log.info(f"{gene_id}: assumed frame 0 — length differs from CDS by {diff} bp (version mismatch?)")
         result["note"] = f"assumed:frame0 length_diff={diff}bp (version mismatch)"
     else:  # div3_assumed
         cds_start, cds_end, codon_offset = 0, len(ungapped_seq), 0
+        result["status"] = "low_confidence"
+        result["confidence"] = "low"
         log.info(f"{gene_id}: assumed frame 0 — seq divergence, alignment len {len(ungapped_seq)} divisible by 3")
         result["note"] = f"assumed:frame0 seq_divergence aln={len(ungapped_seq)}bp cds={len(cds)}bp"
 
@@ -432,14 +449,18 @@ def main():
     # ── Summary ───────────────────────────────────────────────────────────────
     summary_path = out_dir / "summary.tsv"
     with open(summary_path, "w") as fh:
-        fh.write("gene\tgene_name\tstatus\tnote\n")
+        fh.write("gene\tgene_name\tstatus\tconfidence\tensembl_transcript_id\tfetched_at_utc\tnote\n")
         for r in results:
-            fh.write(f"{r['gene']}\t{r['gene_name']}\t{r['status']}\t{r['note']}\n")
+            fh.write(
+                f"{r['gene']}\t{r['gene_name']}\t{r['status']}\t{r['confidence']}\t"
+                f"{r['ensembl_transcript_id']}\t{r['fetched_at_utc']}\t{r['note']}\n"
+            )
 
     ok = sum(1 for r in results if r["status"] == "ok")
+    low_conf = sum(1 for r in results if r["status"] == "low_confidence")
     skip = sum(1 for r in results if r["status"] == "skip")
     err = sum(1 for r in results if r["status"] == "error")
-    log.info(f"Done. {ok} ok | {skip} skipped | {err} errors — see {summary_path}")
+    log.info(f"Done. {ok} ok | {low_conf} low confidence | {skip} skipped | {err} errors — see {summary_path}")
 
 
 if __name__ == "__main__":

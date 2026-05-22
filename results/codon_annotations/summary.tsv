@@ -1,354 +1,354 @@
-gene	gene_name	status	note
-4471	D2HGDH	ok	assumed:frame_known trimmed CDS offset=258 no_start_ATG no_stop_codon(ends_CCT)
-4527	PUR2	ok	assumed:frame_known trimmed CDS offset=276 no_start_ATG no_stop_codon(ends_GCT)
-4691	TL17	error	CDS fetch failed for symbol 'TL17'
-4724	AT-IE	ok	assumed:frame_known trimmed CDS offset=150 no_start_ATG no_stop_codon(ends_CGT)
-4744	DET1	ok	assumed:frame0 seq_divergence aln=1560bp cds=1632bp no_start_ATG no_stop_codon(ends_ACA)
-4757	LOC_Os05g06330	error	CDS fetch failed for symbol 'LOC_Os05g06330'
-4793	LOC_Os03g52470	error	CDS fetch failed for symbol 'LOC_Os03g52470'
-4796	AT5G19150	ok	assumed:frame_known trimmed CDS offset=147 no_start_ATG no_stop_codon(ends_GCA)
-4802	CPFTSY	ok	assumed:frame_known trimmed CDS offset=135 no_start_ATG no_stop_codon(ends_TTC)
-4806	ZEU1	ok	assumed:frame_known trimmed CDS offset=195 no_start_ATG no_stop_codon(ends_TGG)
-4848	ARC6	ok	assumed:frame_known trimmed CDS offset=246 no_start_ATG no_stop_codon(ends_CTT)
-4889	LOC_Os02g07040	error	CDS fetch failed for symbol 'LOC_Os02g07040'
-4890	AT1G69680	ok	assumed:frame_known trimmed CDS offset=24 no_start_ATG no_stop_codon(ends_TTC)
-4893	Era-1	error	CDS fetch failed for symbol 'Era-1'
-4932	CNX2	ok	assumed:frame_known trimmed CDS offset=186 no_start_ATG no_stop_codon(ends_GGC)
-4942	WAV2	ok	assumed:frame_known trimmed CDS offset=24 no_start_ATG no_stop_codon(ends_CTC)
-4951	DIM1A	ok	assumed:frame0 seq_divergence aln=984bp cds=1062bp no_start_ATG no_stop_codon(ends_TTC)
-4954	AT3G02710	ok	assumed:frame_known trimmed CDS offset=144 no_start_ATG no_stop_codon(ends_GCG)
-4989	TWD1	ok	assumed:frame_known trimmed CDS offset=126 no_start_ATG no_stop_codon(ends_AAA)
-4992	SCC3	ok	assumed:frame_known trimmed CDS offset=204 no_start_ATG no_stop_codon(ends_GAG)
-5018	ATSUFS	error	CDS fetch failed for symbol 'ATSUFS'
-5032	AT5G66540	ok	assumed:frame0 seq_divergence aln=1467bp cds=1575bp no_start_ATG no_stop_codon(ends_GCT)
-5034	CLD1	error	CDS fetch failed for symbol 'CLD1'
-5038	ALADIN	error	CDS fetch failed for symbol 'ALADIN'
-5064	AT5G59140	ok	assumed:frame_known trimmed CDS offset=9 no_start_ATG no_stop_codon(ends_CAC)
-5090	ISPF	ok	assumed:frame_known trimmed CDS offset=216 no_start_ATG no_stop_codon(ends_AAA)
-5104	LOC_Os01g22510	error	CDS fetch failed for symbol 'LOC_Os01g22510'
-5116	AT1G16870	ok	assumed:frame_known trimmed CDS offset=339 no_start_ATG no_stop_codon(ends_CCT)
-5123	SKIP31	error	CDS fetch failed for symbol 'SKIP31'
-5131	TGD2	error	CDS fetch failed for symbol 'TGD2'
-5138	PPAN	ok	assumed:frame_known trimmed CDS offset=72 no_start_ATG no_stop_codon(ends_GAA)
-5162	ATCRSH	error	CDS fetch failed for symbol 'ATCRSH'
-5163	VPS45	ok	assumed:frame_known trimmed CDS offset=21 no_start_ATG no_stop_codon(ends_GGT)
-5168	RRP42	error	CDS fetch failed for symbol 'RRP42'
-5177	AT1G65030	ok	assumed:frame_known trimmed CDS offset=0 no_stop_codon(ends_CTT)
-5188	GDS1	error	CDS fetch failed for symbol 'GDS1'
-5200	RPL3P	ok	assumed:frame_known trimmed CDS offset=207 no_stop_codon(ends_GAG)
-5206	emb1473	ok	assumed:frame_known trimmed CDS offset=246 no_start_ATG no_stop_codon(ends_CAG)
-5220	AT2G34050	ok	assumed:frame_known trimmed CDS offset=189 no_start_ATG no_stop_codon(ends_CCT)
-5257	AT1G43860	ok	assumed:frame_known trimmed CDS offset=18 no_start_ATG no_stop_codon(ends_TTC)
-5260	LOC_Os02g49780	error	CDS fetch failed for symbol 'LOC_Os02g49780'
-5264	ATPUB49	error	CDS fetch failed for symbol 'ATPUB49'
-5271	PDF1B	ok	assumed:frame_known trimmed CDS offset=219 no_start_ATG no_stop_codon(ends_GAA)
-5273	AT1G71350	ok	assumed:frame0 length_diff=-6bp (version mismatch) no_stop_codon(ends_AAG)
-5280	SETH2	ok	assumed:frame_known trimmed CDS offset=18 no_start_ATG no_stop_codon(ends_GAT)
-5296	LOC_Os03g45320	error	CDS fetch failed for symbol 'LOC_Os03g45320'
-5299	AT3G04970	ok	assumed:frame_known trimmed CDS offset=27 no_start_ATG no_stop_codon(ends_AGA)
-5304	OTU2	error	CDS fetch failed for symbol 'OTU2'
-5318	LOC_Os04g52710	error	CDS fetch failed for symbol 'LOC_Os04g52710'
-5326	LOC_Os03g23935	error	CDS fetch failed for symbol 'LOC_Os03g23935'
-5328	AT5G47090	ok	assumed:frame0 seq_divergence aln=870bp cds=933bp no_start_ATG no_stop_codon(ends_GAA)
-5333	ELO2	error	CDS fetch failed for symbol 'ELO2'
-5335	AT4G28450	ok	no_stop_codon(ends_GAG)
-5339	APUM24	error	CDS fetch failed for symbol 'APUM24'
-5343	TRM8a	error	CDS fetch failed for symbol 'TRM8a'
-5347	LOC_Os03g18500	error	CDS fetch failed for symbol 'LOC_Os03g18500'
-5348	SLD5	ok	assumed:frame_known trimmed CDS offset=54 no_start_ATG no_stop_codon(ends_ATC)
-5354	AT1G18340	ok	assumed:frame_known trimmed CDS offset=30 no_start_ATG no_stop_codon(ends_GGG)
-5355	PyrD	ok	assumed:frame_known trimmed CDS offset=216 no_start_ATG no_stop_codon(ends_CCG)
-5357	AT5G02280	ok	assumed:frame_known trimmed CDS offset=15 no_start_ATG no_stop_codon(ends_CGA)
-5366	AT2G37500	ok	assumed:frame_known trimmed CDS offset=138 no_start_ATG no_stop_codon(ends_TCA)
-5398	ATTOP6B	error	CDS fetch failed for symbol 'ATTOP6B'
-5404	ATDPB2	error	CDS fetch failed for symbol 'ATDPB2'
-5406	ATXPD	error	CDS fetch failed for symbol 'ATXPD'
-5421	AT5G03900	ok	assumed:frame_known trimmed CDS offset=219 no_start_ATG no_stop_codon(ends_GAA)
-5422	PGPP1	error	CDS fetch failed for symbol 'PGPP1'
-5426	ELP2	ok	assumed:frame_known trimmed CDS offset=30 no_start_ATG no_stop_codon(ends_TTC)
-5427	AT5G50840	ok	assumed:frame_known trimmed CDS offset=363 no_start_ATG no_stop_codon(ends_AAA)
-5428	AT1G62730	ok	assumed:frame_known trimmed CDS offset=30 no_start_ATG no_stop_codon(ends_TTT)
-5430	AT4G29520	ok	assumed:frame_known trimmed CDS offset=102 no_start_ATG no_stop_codon(ends_GAG)
-5434	NBP35	ok	assumed:frame_known trimmed CDS offset=15 no_start_ATG no_stop_codon(ends_GTC)
-5449	AT1G55880	ok	assumed:frame_known trimmed CDS offset=126 no_start_ATG no_stop_codon(ends_CTC)
-5454	AT5G14460	ok	assumed:frame0 seq_divergence aln=1122bp cds=1623bp no_start_ATG no_stop_codon(ends_TAC)
-5460	ATMND1	ok	assumed:frame_known trimmed CDS offset=0 no_stop_codon(ends_ATA)
-5463	LOC_Os02g38300	error	CDS fetch failed for symbol 'LOC_Os02g38300'
-5464	nan	error	CDS fetch failed for symbol 'nan'
-5469	LOC_Os12g40450	error	CDS fetch failed for symbol 'LOC_Os12g40450'
-5477	DECOY	ok	assumed:frame_known trimmed CDS offset=75 no_start_ATG no_stop_codon(ends_ATT)
-5489	ELF9	ok	assumed:frame_known trimmed CDS offset=63 no_start_ATG no_stop_codon(ends_GCT)
-5502	GCP1	ok	assumed:frame_known trimmed CDS offset=258 no_start_ATG no_stop_codon(ends_AGA)
-5513	AT5G38360	ok	assumed:frame_known trimmed CDS offset=207 no_start_ATG no_stop_codon(ends_CTA)
-5528	CSTF77	ok	assumed:frame_known trimmed CDS offset=9 no_start_ATG no_stop_codon(ends_AAA)
-5531	AT1G52590	ok	assumed:frame_known trimmed CDS offset=150 no_start_ATG no_stop_codon(ends_TCT)
-5536	AT3G60370	ok	assumed:frame_known trimmed CDS offset=288 no_start_ATG no_stop_codon(ends_TGC)
-5551	PUR7	ok	assumed:frame_known trimmed CDS offset=279 no_start_ATG no_stop_codon(ends_CTC)
-5554	CYP57	error	CDS fetch failed for symbol 'CYP57'
-5562	AT2G36930	ok	assumed:frame_known trimmed CDS offset=0 no_stop_codon(ends_AAG)
-5578	BolA2	error	CDS fetch failed for symbol 'BolA2'
-5594	ATCDSP32	error	CDS fetch failed for symbol 'ATCDSP32'
-5596	VPS15	ok	no_stop_codon(ends_AAG)
-5599	NERD1	error	CDS fetch failed for symbol 'NERD1'
-5614	AT3G03790	ok	assumed:frame_known trimmed CDS offset=78 no_start_ATG no_stop_codon(ends_GAA)
-5620	AT2G19870	ok	assumed:frame_known trimmed CDS offset=849 no_start_ATG no_stop_codon(ends_GGC)
-5634	ATSWC4	error	CDS fetch failed for symbol 'ATSWC4'
-5639	AT4G36530	ok	assumed:frame_known trimmed CDS offset=213 no_start_ATG no_stop_codon(ends_TTG)
-5642	AT3G48540	ok	assumed:frame_known trimmed CDS offset=192 no_start_ATG no_stop_codon(ends_GAA)
-5644	AT4G24880	ok	assumed:frame_known trimmed CDS offset=6 no_start_ATG no_stop_codon(ends_CTT)
-5656	AT2G26470	ok	assumed:frame_known trimmed CDS offset=183 no_start_ATG no_stop_codon(ends_AAG)
-5660	AT1G52530	ok	assumed:frame_known trimmed CDS offset=0 no_stop_codon(ends_GTG)
-5664	SLP1	ok	assumed:frame0 seq_divergence aln=1002bp cds=1203bp no_start_ATG no_stop_codon(ends_AGG)
-5670	APC7	ok	assumed:frame_known trimmed CDS offset=9 no_start_ATG no_stop_codon(ends_ATG)
-5699	ATG5	error	CDS fetch failed for symbol 'ATG5'
-5702	QPT	ok	assumed:frame_known trimmed CDS offset=117 no_start_ATG no_stop_codon(ends_GCA)
-5703	EMB2762	ok	assumed:frame_known trimmed CDS offset=60 no_start_ATG no_stop_codon(ends_TTC)
-5716	TGH	ok	assumed:frame_known trimmed CDS offset=18 no_start_ATG no_stop_codon(ends_CCA)
-5721	UPM1	ok	assumed:frame_known trimmed CDS offset=342 no_start_ATG no_stop_codon(ends_TGG)
-5733	IPK	error	CDS fetch failed for symbol 'IPK'
-5744	GDC1	ok	assumed:frame_known trimmed CDS offset=171 no_start_ATG no_stop_codon(ends_CAA)
-5770	AT5G55220	ok	assumed:frame_known trimmed CDS offset=282 no_start_ATG no_stop_codon(ends_ATC)
-5772	PDF1A	ok	assumed:frame_known trimmed CDS offset=240 no_start_ATG no_stop_codon(ends_GGA)
-5791	ISPD	ok	assumed:frame_known trimmed CDS offset=219 no_start_ATG no_stop_codon(ends_TTG)
-5802	ORC2	ok	assumed:frame_known trimmed CDS offset=102 no_start_ATG no_stop_codon(ends_GAT)
-5815	EMB2407	error	CDS fetch failed for symbol 'EMB2407'
-5816	NCT	error	CDS fetch failed for symbol 'NCT'
-5821	AT4G31790	ok	assumed:frame_known trimmed CDS offset=0 no_stop_codon(ends_TAC)
-5822	AT4G26980	ok	assumed:frame_known trimmed CDS offset=138 no_start_ATG no_stop_codon(ends_AGG)
-5840	HCF244	ok	assumed:frame_known trimmed CDS offset=216 no_start_ATG no_stop_codon(ends_TTC)
-5841	LOC_Os08g44010	error	CDS fetch failed for symbol 'LOC_Os08g44010'
-5842	EMB9	error	CDS fetch failed for symbol 'EMB9'
-5843	AT5G52980	ok	assumed:frame_known trimmed CDS offset=207 no_start_ATG no_stop_codon(ends_AAA)
-5849	AT2G37680	ok	assumed:frame_known trimmed CDS offset=159 no_start_ATG no_stop_codon(ends_TTG)
-5853	AHP2	ok	assumed:frame0 seq_divergence aln=600bp cds=471bp no_start_ATG no_stop_codon(ends_CTA)
-5857	PRPL3	error	CDS fetch failed for symbol 'PRPL3'
-5858	AT2G40650	ok	assumed:frame_known trimmed CDS offset=0 no_stop_codon(ends_TTT)
-5859	VIP3	ok	no_stop_codon(ends_TCA)
-5865	AT5G17930	ok	assumed:frame_known trimmed CDS offset=840 no_start_ATG no_stop_codon(ends_CTC)
-5866	AT3G52390	ok	assumed:frame_known trimmed CDS offset=51 no_start_ATG no_stop_codon(ends_CTT)
-5870	AT2G15240	ok	assumed:frame_known trimmed CDS offset=69 no_start_ATG no_stop_codon(ends_TTC)
-5893	AT3G15110	ok	assumed:frame_known trimmed CDS offset=246 no_start_ATG no_stop_codon(ends_GAA)
-5894	RLF	ok	assumed:frame_known trimmed CDS offset=399 no_start_ATG no_stop_codon(ends_GAT)
-5899	AT4G24840	ok	assumed:frame_known trimmed CDS offset=57 no_start_ATG no_stop_codon(ends_GAT)
-5910	CHLM	ok	assumed:frame_known trimmed CDS offset=264 no_start_ATG no_stop_codon(ends_GCT)
-5913	ATGTF2H2	error	CDS fetch failed for symbol 'ATGTF2H2'
-5918	CGL160	error	CDS fetch failed for symbol 'CGL160'
-5919	CNX3	ok	assumed:frame_known trimmed CDS offset=345 no_start_ATG no_stop_codon(ends_ACT)
-5921	ATSMC3	error	CDS fetch failed for symbol 'ATSMC3'
-5922	emb2738	ok	assumed:frame_known trimmed CDS offset=459 no_start_ATG no_stop_codon(ends_CGT)
-5926	AT4G08790	ok	assumed:frame_known trimmed CDS offset=111 no_start_ATG no_stop_codon(ends_CGA)
-5933	CSP41A	ok	assumed:frame_known trimmed CDS offset=234 no_start_ATG no_stop_codon(ends_GCC)
-5936	ATRRP4	error	CDS fetch failed for symbol 'ATRRP4'
-5940	SETH1	ok	assumed:frame_known trimmed CDS offset=39 no_start_ATG no_stop_codon(ends_GAT)
-5941	PFD5	ok	assumed:frame_known trimmed CDS offset=30 no_start_ATG no_stop_codon(ends_CAG)
-5942	RPL4	ok	assumed:frame_known trimmed CDS offset=204 no_start_ATG no_stop_codon(ends_GGT)
-5943	VCL1	ok	assumed:frame_known trimmed CDS offset=93 no_start_ATG no_stop_codon(ends_CAG)
-5944	DL4915W	error	CDS fetch failed for symbol 'DL4915W'
-5945	AT5G06360	ok	no_stop_codon(ends_GTG)
-5949	SD3	ok	assumed:frame_known trimmed CDS offset=342 no_start_ATG no_stop_codon(ends_GCC)
-5950	AT2G25280	ok	assumed:frame_known trimmed CDS offset=12 no_start_ATG no_stop_codon(ends_GCC)
-5958	PSB28	ok	assumed:frame_known trimmed CDS offset=258 no_start_ATG no_stop_codon(ends_AAG)
-5960	FIO1	ok	assumed:frame_known trimmed CDS offset=147 no_start_ATG no_stop_codon(ends_TTG)
-5968	FdC2	ok	assumed:frame0 seq_divergence aln=369bp cds=585bp no_start_ATG no_stop_codon(ends_GAA)
-5974	AT5G48790	ok	assumed:frame_known trimmed CDS offset=228 no_start_ATG no_stop_codon(ends_TCC)
-5977	AT5G40530	ok	assumed:frame0 seq_divergence aln=672bp cds=933bp no_start_ATG no_stop_codon(ends_CGA)
-5980	AT1G50450	ok	assumed:frame_known trimmed CDS offset=117 no_start_ATG no_stop_codon(ends_GTA)
-5981	OGG1	ok	assumed:frame_known trimmed CDS offset=144 no_start_ATG no_stop_codon(ends_AAA)
-5990	MED21	ok	assumed:frame_known trimmed CDS offset=0 no_stop_codon(ends_CCT)
-6000	AT3G25470	ok	assumed:frame_known trimmed CDS offset=156 no_start_ATG no_stop_codon(ends_TTT)
-6003	PRPL28	ok	assumed:frame_known trimmed CDS offset=195 no_start_ATG no_stop_codon(ends_AAG)
-6004	PANC	ok	assumed:frame_known trimmed CDS offset=33 no_stop_codon(ends_ATC)
-6016	AT3G08650	ok	assumed:frame_known trimmed CDS offset=285 no_start_ATG no_stop_codon(ends_GTT)
-6026	ECHID	ok	assumed:frame_known trimmed CDS offset=129 no_start_ATG no_stop_codon(ends_CCT)
-6029	PMES	error	CDS fetch failed for symbol 'PMES'
-6034	POLA3	ok	assumed:frame_known trimmed CDS offset=87 no_start_ATG no_stop_codon(ends_TGG)
-6036	NSN1	ok	assumed:frame_known trimmed CDS offset=0 no_stop_codon(ends_ATG)
-6038	VTE1	ok	assumed:frame_known trimmed CDS offset=216 no_start_ATG no_stop_codon(ends_CTG)
-6041	GCP4	ok	assumed:frame_known trimmed CDS offset=0 no_stop_codon(ends_ACT)
-6048	TAF13	ok	assumed:frame_known trimmed CDS offset=75 no_start_ATG no_stop_codon(ends_CTC)
-6050	EER5	ok	assumed:frame_known trimmed CDS offset=18 no_start_ATG no_stop_codon(ends_GTT)
-6051	EMB2768	ok	assumed:frame_known trimmed CDS offset=342 no_start_ATG no_stop_codon(ends_ATT)
-6056	AT5G26180	ok	assumed:frame0 seq_divergence aln=1245bp cds=1704bp no_start_ATG no_stop_codon(ends_TTC)
-6064	AtUSB1	error	CDS fetch failed for symbol 'AtUSB1'
-6068	AT3G05070	ok	assumed:frame_known trimmed CDS offset=138 no_stop_codon(ends_CTC)
-6072	AT5G19370	ok	assumed:frame_known trimmed CDS offset=282 no_start_ATG no_stop_codon(ends_TAC)
-6098	COG7	error	CDS fetch failed for symbol 'COG7'
-6110	AT4G39880	ok	assumed:frame_known trimmed CDS offset=0 no_stop_codon(ends_AAG)
-6114	HscB	error	CDS fetch failed for symbol 'HscB'
-6119	EOL1	ok	assumed:frame0 seq_divergence aln=2421bp cds=2667bp no_start_ATG no_stop_codon(ends_GAG)
-6128	AT5G53800	ok	assumed:frame_known trimmed CDS offset=549 no_start_ATG no_stop_codon(ends_GAT)
-6130	PAHX	ok	assumed:frame_known trimmed CDS offset=30 no_start_ATG no_stop_codon(ends_TAT)
-6139	OTC	ok	assumed:frame_known trimmed CDS offset=216 no_start_ATG no_stop_codon(ends_GGC)
-6148	AT2G28605	ok	assumed:frame_known trimmed CDS offset=228 no_start_ATG no_stop_codon(ends_GAT)
-6150	AT3G01920	ok	assumed:frame0 seq_divergence aln=642bp cds=1005bp no_start_ATG no_stop_codon(ends_GTG)
-6164	AT5G10700	ok	assumed:frame0 seq_divergence aln=342bp cds=603bp no_start_ATG no_stop_codon(ends_AAG)
-6175	AT5G06830	ok	assumed:frame_known trimmed CDS offset=21 no_start_ATG no_stop_codon(ends_GCT)
-6176	ATERS	error	CDS fetch failed for symbol 'ATERS'
-6198	AT3G05760	ok	assumed:frame_known trimmed CDS offset=24 no_start_ATG no_stop_codon(ends_TCA)
-6216	LPA3	ok	assumed:frame_known trimmed CDS offset=135 no_start_ATG no_stop_codon(ends_AAC)
-6221	AT3G06950	ok	assumed:frame_known trimmed CDS offset=123 no_start_ATG no_stop_codon(ends_AAA)
-6226	ENF2	error	CDS fetch failed for symbol 'ENF2'
-6227	ENH1	ok	assumed:frame_known trimmed CDS offset=249 no_start_ATG no_stop_codon(ends_CAA)
-6238	AT2G40570	ok	assumed:frame_known trimmed CDS offset=42 no_start_ATG no_stop_codon(ends_CTC)
-6258	PDS2	error	CDS fetch failed for symbol 'PDS2'
-6265	EMB2804	ok	assumed:frame_known trimmed CDS offset=30 no_start_ATG no_stop_codon(ends_GAA)
-6270	ATFH	error	CDS fetch failed for symbol 'ATFH'
-6274	PYG7	error	CDS fetch failed for symbol 'PYG7'
-6282	AT5G52970	ok	assumed:frame_known trimmed CDS offset=249 no_start_ATG no_stop_codon(ends_ATC)
-6284	AT2G44660	ok	assumed:frame_known trimmed CDS offset=54 no_start_ATG no_stop_codon(ends_CTC)
-6295	SQD1	ok	assumed:frame_known trimmed CDS offset=252 no_start_ATG no_stop_codon(ends_ACA)
-6298	AT1G03150	ok	no_stop_codon(ends_GAT)
-6299	AT4G00030	ok	assumed:frame_known trimmed CDS offset=117 no_start_ATG no_stop_codon(ends_ACT)
-6303	LOC_Os05g13370	error	CDS fetch failed for symbol 'LOC_Os05g13370'
-6318	AT3G56040	ok	assumed:frame_known trimmed CDS offset=663 no_start_ATG no_stop_codon(ends_GAG)
-6320	EngA-2	error	CDS fetch failed for symbol 'EngA-2'
-6363	TrmE	error	CDS fetch failed for symbol 'TrmE'
-6366	LOC_Os03g05720	error	CDS fetch failed for symbol 'LOC_Os03g05720'
-6373	PRDA1	error	CDS fetch failed for symbol 'PRDA1'
-6376	INDL	error	CDS fetch failed for symbol 'INDL'
-6378	AT3G15520	ok	assumed:frame_known trimmed CDS offset=333 no_start_ATG no_stop_codon(ends_CCT)
-6379	AT4G08280	ok	assumed:frame_known trimmed CDS offset=126 no_start_ATG no_stop_codon(ends_GCC)
-6383	PDE312	ok	assumed:frame0 seq_divergence aln=1641bp cds=2094bp no_start_ATG no_stop_codon(ends_AAA)
-6384	pde194	ok	assumed:frame_known trimmed CDS offset=78 no_start_ATG no_stop_codon(ends_CTG)
-6387	TGD1	error	CDS fetch failed for symbol 'TGD1'
-6389	LOC_Os09g29420	error	Cannot find sequence with 'Arabidopsis_thaliana' in alignment. Sample headers: ['6389 Gene_Name:LOC_Os09g29420 Species:Lophopyxis_maingayi Repository:INSDC Seque', '6389 Gene_Name:LOC_Os09g29420 Species:Saxifraga_maderensis Repository:INSDC Sequ', '6389 Gene_Name:LOC_Os09g29420 Species:Saxifraga_biflora Repository:INSDC Sequenc', '6389 Gene_Name:LOC_Os09g29420 Species:Saxifraga_portosanctana Repository:INSDC S', '6389 Gene_Name:LOC_Os09g29420 Species:Echinops_spinosissimus Repository:INSDC Se']
-6393	AT4G00560	ok	assumed:frame0 seq_divergence aln=774bp cds=996bp no_start_ATG no_stop_codon(ends_CTT)
-6398	DL4280W	error	CDS fetch failed for symbol 'DL4280W'
-6401	UCP3	ok	assumed:frame_known trimmed CDS offset=42 no_start_ATG no_stop_codon(ends_TTC)
-6404	RID2	ok	assumed:frame_known trimmed CDS offset=9 no_start_ATG no_stop_codon(ends_TTC)
-6405	MED8	error	CDS (len=1575) not found in ungapped A. thaliana seq (len=1226); sequences may differ between TAIR versions
-6406	ATATG18B	error	CDS fetch failed for symbol 'ATATG18B'
-6407	AT1G67620	ok	assumed:frame_known trimmed CDS offset=138 no_start_ATG no_stop_codon(ends_TGG)
-6412	FIB4	ok	assumed:frame_known trimmed CDS offset=255 no_start_ATG no_stop_codon(ends_ATT)
-6420	AT1G06240	ok	assumed:frame_known trimmed CDS offset=108 no_start_ATG no_stop_codon(ends_AAT)
-6430	LOC_Os06g10340	error	CDS fetch failed for symbol 'LOC_Os06g10340'
-6432	RPH1	ok	assumed:frame0 seq_divergence aln=411bp cds=606bp no_start_ATG no_stop_codon(ends_GAA)
-6439	ATNAP13	error	CDS fetch failed for symbol 'ATNAP13'
-6447	AT2G27290	ok	assumed:frame_known trimmed CDS offset=186 no_start_ATG no_stop_codon(ends_ATT)
-6448	MTP5	error	CDS fetch failed for symbol 'MTP5'
-6449	AT5G57860	ok	assumed:frame_known trimmed CDS offset=6 no_stop_codon(ends_CAG)
-6450	AT5G10920	ok	assumed:frame_known trimmed CDS offset=165 no_start_ATG no_stop_codon(ends_CTT)
-6454	AT2G25950	ok	assumed:frame_known trimmed CDS offset=0 no_stop_codon(ends_GTT)
-6457	NSE3	error	CDS fetch failed for symbol 'NSE3'
-6458	HCAR	ok	assumed:frame_known trimmed CDS offset=114 no_start_ATG no_stop_codon(ends_CTC)
-6459	AT4G28740	ok	assumed:frame_known trimmed CDS offset=273 no_start_ATG no_stop_codon(ends_GTG)
-6460	COQ6	error	CDS fetch failed for symbol 'COQ6'
-6462	NLP1	ok	assumed:frame0 seq_divergence aln=867bp cds=981bp no_start_ATG no_stop_codon(ends_GGT)
-6483	AT4G31530	ok	assumed:frame0 seq_divergence aln=750bp cds=1017bp no_start_ATG no_stop_codon(ends_GCA)
-6487	AO	ok	assumed:frame_known trimmed CDS offset=243 no_start_ATG no_stop_codon(ends_ATT)
-6488	TAP38	ok	assumed:frame_known trimmed CDS offset=168 no_start_ATG no_stop_codon(ends_TGG)
-6492	HCF164	ok	assumed:frame_known trimmed CDS offset=264 no_start_ATG no_stop_codon(ends_GGA)
-6494	AT1G49380	ok	assumed:frame_known trimmed CDS offset=312 no_start_ATG no_stop_codon(ends_GAG)
-6496	emb2444	ok	assumed:frame_known trimmed CDS offset=0 no_stop_codon(ends_CCA)
-6498	PSAG	ok	assumed:frame_known trimmed CDS offset=177 no_start_ATG no_stop_codon(ends_TTC)
-6500	AT2G20330	ok	assumed:frame0 seq_divergence aln=1437bp cds=1947bp no_start_ATG no_stop_codon(ends_GAA)
-6506	AT2G43560	ok	assumed:frame_known trimmed CDS offset=225 no_start_ATG no_stop_codon(ends_CTC)
-6507	AT3G59630	ok	assumed:frame_known trimmed CDS offset=15 no_start_ATG no_stop_codon(ends_GAG)
-6514	nan	error	CDS fetch failed for symbol 'nan'
-6526	AT3G60660	ok	assumed:frame_known trimmed CDS offset=15 no_start_ATG no_stop_codon(ends_CCT)
-6527	AT1G49980	ok	assumed:frame0 seq_divergence aln=1797bp cds=2016bp no_start_ATG no_stop_codon(ends_ACT)
-6528	AT5G57040	ok	assumed:frame_known trimmed CDS offset=219 no_start_ATG no_stop_codon(ends_GTT)
-6531	DCC1	error	CDS fetch failed for symbol 'DCC1'
-6532	EDA3	ok	assumed:frame_known trimmed CDS offset=303 no_start_ATG no_stop_codon(ends_GAT)
-6533	DELTA-OAT	ok	assumed:frame_known trimmed CDS offset=126 no_start_ATG no_stop_codon(ends_CTG)
-6538	PPD6	ok	assumed:frame_known trimmed CDS offset=198 no_start_ATG no_stop_codon(ends_CTG)
-6540	LOC_Os01g16340	error	CDS fetch failed for symbol 'LOC_Os01g16340'
-6544	EDA25	ok	assumed:frame0 seq_divergence aln=2175bp cds=3132bp no_start_ATG no_stop_codon(ends_AAG)
-6550	AT5G04910	ok	assumed:frame_known trimmed CDS offset=138 no_start_ATG no_stop_codon(ends_GAA)
-6552	ATNAP14	error	CDS fetch failed for symbol 'ATNAP14'
-6557	AT1G53760	ok	assumed:frame_known trimmed CDS offset=159 no_start_ATG no_stop_codon(ends_TAT)
-6559	LOC_Os07g39980	error	Cannot find sequence with 'Arabidopsis_thaliana' in alignment. Sample headers: ['6559 Gene_Name:LOC_Os07g39980 Species:Saxifraga_fortunei Repository:INSDC Sequen', '6559 Gene_Name:LOC_Os07g39980 Species:Saxifraga_maderensis Repository:INSDC Sequ', '6559 Gene_Name:LOC_Os07g39980 Species:Saxifraga_biflora Repository:INSDC Sequenc', '6559 Gene_Name:LOC_Os07g39980 Species:Saxifraga_portosanctana Repository:INSDC S', '6559 Gene_Name:LOC_Os07g39980 Species:Echinops_acantholepis Repository:INSDC Seq']
-6563	TPST	ok	assumed:frame_known trimmed CDS offset=90 no_start_ATG no_stop_codon(ends_GAA)
-6565	PP4R2L	error	CDS fetch failed for symbol 'PP4R2L'
-6570	AT5G60590	ok	assumed:frame_known trimmed CDS offset=231 no_start_ATG no_stop_codon(ends_CTT)
-6572	GC1	ok	assumed:frame0 seq_divergence aln=900bp cds=2133bp no_stop_codon(ends_ATT)
-6601	AT1G45110	ok	assumed:frame_known trimmed CDS offset=156 no_start_ATG no_stop_codon(ends_AAG)
-6620	CXIP2	ok	assumed:frame_known trimmed CDS offset=258 no_start_ATG no_stop_codon(ends_TTG)
-6631	AT1G74530	ok	assumed:frame_known trimmed CDS offset=177 no_start_ATG no_stop_codon(ends_CTC)
-6636	AT1G28140	ok	assumed:frame_known trimmed CDS offset=156 no_start_ATG no_stop_codon(ends_ATA)
-6639	AT1G11780	ok	assumed:frame_known trimmed CDS offset=231 no_start_ATG no_stop_codon(ends_AGG)
-6641	CCB1	ok	assumed:frame_known trimmed CDS offset=243 no_start_ATG no_stop_codon(ends_GAG)
-6649	PFD1	ok	assumed:frame_known trimmed CDS offset=0 no_stop_codon(ends_ATG)
-6652	EBS3	ok	assumed:frame_known trimmed CDS offset=144 no_start_ATG no_stop_codon(ends_AGA)
-6660	AT1G72640	ok	assumed:frame_known trimmed CDS offset=156 no_start_ATG no_stop_codon(ends_GAA)
-6667	RH57	error	CDS fetch failed for symbol 'RH57'
-6679	CCB4	ok	assumed:frame_known trimmed CDS offset=147 no_start_ATG no_stop_codon(ends_AGA)
-6685	SCS9	error	CDS fetch failed for symbol 'SCS9'
-6689	IMPL1	ok	assumed:frame_known trimmed CDS offset=210 no_start_ATG no_stop_codon(ends_GAG)
-6705	AT3G62810	ok	assumed:frame_known trimmed CDS offset=18 no_start_ATG no_stop_codon(ends_GAG)
-6713	AT4G06676	ok	assumed:frame_known trimmed CDS offset=30 no_start_ATG no_stop_codon(ends_GCT)
-6717	EMB269	ok	assumed:frame_known trimmed CDS offset=582 no_start_ATG no_stop_codon(ends_GAT)
-6732	REV7	ok	assumed:frame_known trimmed CDS offset=42 no_start_ATG no_stop_codon(ends_TTG)
-6733	AT4G37020	ok	assumed:frame0 seq_divergence aln=573bp cds=777bp no_start_ATG no_stop_codon(ends_ATC)
-6738	AT5G44710	ok	assumed:frame_known trimmed CDS offset=15 no_start_ATG no_stop_codon(ends_GCT)
-6746	CYN	ok	assumed:frame_known trimmed CDS offset=57 no_start_ATG no_stop_codon(ends_CAG)
-6779	AT1G65230	ok	assumed:frame_known trimmed CDS offset=159 no_start_ATG no_stop_codon(ends_ATC)
-6780	DAC	ok	assumed:frame_known trimmed CDS offset=243 no_start_ATG no_stop_codon(ends_AAG)
-6782	AT5G63000	ok	assumed:frame_known trimmed CDS offset=66 no_start_ATG no_stop_codon(ends_AAA)
-6785	AT1G12244	ok	assumed:frame_known trimmed CDS offset=243 no_start_ATG no_stop_codon(ends_ATC)
-6791	AT2G41760	ok	assumed:frame_known trimmed CDS offset=69 no_start_ATG no_stop_codon(ends_GCC)
-6792	AT5G50110	ok	assumed:frame_known trimmed CDS offset=198 no_start_ATG no_stop_codon(ends_TTG)
-6797	SWC2	ok	assumed:frame_known trimmed CDS offset=33 no_start_ATG no_stop_codon(ends_CGT)
-6825	RBF1	error	CDS fetch failed for symbol 'RBF1'
-6848	AT4G38370	ok	assumed:frame_known trimmed CDS offset=27 no_start_ATG no_stop_codon(ends_CAG)
-6854	AT1G03030	ok	assumed:frame_known trimmed CDS offset=216 no_start_ATG no_stop_codon(ends_TCT)
-6859	LOC_Os07g07470	error	CDS fetch failed for symbol 'LOC_Os07g07470'
-6860	AT4G27120	ok	assumed:frame_known trimmed CDS offset=30 no_stop_codon(ends_CAG)
-6864	NPU	ok	assumed:frame_known trimmed CDS offset=96 no_start_ATG no_stop_codon(ends_GAG)
-6865	AT1G22800	ok	assumed:frame_known trimmed CDS offset=150 no_start_ATG no_stop_codon(ends_TTT)
-6875	AT5G62030	ok	assumed:frame_known trimmed CDS offset=51 no_start_ATG no_stop_codon(ends_TGG)
-6882	AT4G18260	error	Cannot find sequence with 'Arabidopsis_thaliana' in alignment. Sample headers: ['6882 Gene_Name:AT4G18260 Species:Saxifraga_fortunei Repository:INSDC Sequence_ID', '6882 Gene_Name:AT4G18260 Species:Lophopyxis_maingayi Repository:INSDC Sequence_I', '6882 Gene_Name:AT4G18260 Species:Saxifraga_maderensis Repository:INSDC Sequence_', '6882 Gene_Name:AT4G18260 Species:Saxifraga_portosanctana Repository:INSDC Sequen', '6882 Gene_Name:AT4G18260 Species:Echinops_strigosus Repository:INSDC Sequence_ID']
-6883	UREG	ok	assumed:frame_known trimmed CDS offset=84 no_start_ATG no_stop_codon(ends_CGC)
-6886	nan	error	CDS fetch failed for symbol 'nan'
-6893	AT2G24970	ok	assumed:frame_known trimmed CDS offset=30 no_start_ATG no_stop_codon(ends_ACA)
-6909	COX11	error	CDS fetch failed for symbol 'COX11'
-6913	HCF136	ok	assumed:frame_known trimmed CDS offset=330 no_start_ATG no_stop_codon(ends_GGC)
-6914	AT5G06260	ok	assumed:frame_known trimmed CDS offset=33 no_start_ATG no_stop_codon(ends_TCA)
-6924	TIC56	error	CDS fetch failed for symbol 'TIC56'
-6933	DNMT2	ok	assumed:frame_known trimmed CDS offset=45 no_start_ATG no_stop_codon(ends_TTC)
-6946	AT3G03100	ok	assumed:frame_known trimmed CDS offset=3 no_start_ATG no_stop_codon(ends_CCC)
-6947	EMB260	error	CDS fetch failed for symbol 'EMB260'
-6954	AT1G50575	ok	assumed:frame_known trimmed CDS offset=195 no_start_ATG no_stop_codon(ends_TAT)
-6955	NPQ6	ok	assumed:frame_known trimmed CDS offset=162 no_start_ATG no_stop_codon(ends_AGC)
-6958	LpxA	ok	assumed:frame_known trimmed CDS offset=120 no_start_ATG no_stop_codon(ends_TTC)
-6961	EMB3129	ok	assumed:frame_known trimmed CDS offset=243 no_start_ATG no_stop_codon(ends_CCT)
-6962	LOC_Os05g33290	error	Cannot find sequence with 'Arabidopsis_thaliana' in alignment. Sample headers: ['6962 Gene_Name:LOC_Os05g33290 Species:Saxifraga_fortunei Repository:INSDC Sequen', '6962 Gene_Name:LOC_Os05g33290 Species:Saxifraga_maderensis Repository:INSDC Sequ', '6962 Gene_Name:LOC_Os05g33290 Species:Echinops_acantholepis Repository:INSDC Seq', '6962 Gene_Name:LOC_Os05g33290 Species:Echinops_spinosissimus Repository:INSDC Se', '6962 Gene_Name:LOC_Os05g33290 Species:Echinops_strigosus Repository:INSDC Sequen']
-6968	CcdA	ok	assumed:frame_known trimmed CDS offset=291 no_start_ATG no_stop_codon(ends_CCT)
-6969	ATSRX	error	CDS fetch failed for symbol 'ATSRX'
-6977	AT4G26310	ok	assumed:frame0 seq_divergence aln=543bp cds=786bp no_start_ATG no_stop_codon(ends_TTT)
-6978	AT5G19850	ok	assumed:frame_known trimmed CDS offset=231 no_start_ATG no_stop_codon(ends_CAT)
-6979	DRL1	ok	assumed:frame_known trimmed CDS offset=0 no_stop_codon(ends_GGA)
-6992	ARPC4	ok	assumed:frame0 seq_divergence aln=495bp cds=531bp no_start_ATG no_stop_codon(ends_ATG)
-6995	AT1G30130	ok	assumed:frame_known trimmed CDS offset=0 no_stop_codon(ends_GAT)
-7013	PPD5	ok	assumed:frame_known trimmed CDS offset=324 no_start_ATG no_stop_codon(ends_TGG)
-7021	AT1G78915	ok	assumed:frame0 seq_divergence aln=909bp cds=1218bp no_start_ATG no_stop_codon(ends_TAC)
-7024	MIA40	ok	assumed:frame_known trimmed CDS offset=108 no_start_ATG no_stop_codon(ends_AAA)
-7028	AT4G24930	ok	assumed:frame_known trimmed CDS offset=219 no_start_ATG no_stop_codon(ends_GGT)
-7029	AT5G64730	ok	assumed:frame_known trimmed CDS offset=15 no_start_ATG no_stop_codon(ends_AAA)
-7067	AT1G26940	ok	assumed:frame_known trimmed CDS offset=84 no_start_ATG no_stop_codon(ends_TTC)
-7111	AT3G10130	ok	assumed:frame0 seq_divergence aln=738bp cds=930bp no_start_ATG no_stop_codon(ends_GTT)
-7128	BCE2	ok	assumed:frame0 seq_divergence aln=1194bp cds=1452bp no_start_ATG no_stop_codon(ends_AGA)
-7135	AT3G26085	ok	assumed:frame_known trimmed CDS offset=390 no_start_ATG no_stop_codon(ends_CGA)
-7136	HHL1	error	CDS fetch failed for symbol 'HHL1'
-7141	PDE329	ok	assumed:frame_known trimmed CDS offset=171 no_start_ATG no_stop_codon(ends_CAA)
-7174	EMB3108	ok	assumed:frame_known trimmed CDS offset=237 no_start_ATG no_stop_codon(ends_AAG)
-7194	AT1G76450	ok	assumed:frame_known trimmed CDS offset=270 no_start_ATG no_stop_codon(ends_AGA)
-7241	AT4G01935	ok	assumed:frame_known trimmed CDS offset=153 no_start_ATG no_stop_codon(ends_CTA)
-7273	AT2G35450	ok	assumed:frame_known trimmed CDS offset=180 no_start_ATG no_stop_codon(ends_CAG)
-7279	SRRP1	error	CDS fetch failed for symbol 'SRRP1'
-7296	AT5G08320	ok	assumed:frame_known trimmed CDS offset=30 no_start_ATG no_stop_codon(ends_CCA)
-7313	AT3G02300	ok	assumed:frame_known trimmed CDS offset=87 no_start_ATG no_stop_codon(ends_GAG)
-7324	CHL	ok	assumed:frame_known trimmed CDS offset=378 no_start_ATG no_stop_codon(ends_AAA)
-7325	AT3G12210	ok	assumed:frame_known trimmed CDS offset=12 no_start_ATG no_stop_codon(ends_AAG)
-7331	AT1G09800	ok	assumed:frame_known trimmed CDS offset=159 no_start_ATG no_stop_codon(ends_TTT)
-7333	U11/U12-31K	error	CDS fetch failed for symbol 'U11/U12-31K'
-7336	AT1G26220	ok	assumed:frame_known trimmed CDS offset=156 no_start_ATG no_stop_codon(ends_GTT)
-7361	AT2G35360	ok	assumed:frame_known trimmed CDS offset=51 no_start_ATG no_stop_codon(ends_ATG)
-7363	AT2G36895	ok	assumed:frame0 seq_divergence aln=483bp cds=780bp no_start_ATG no_stop_codon(ends_TTC)
-7367	AT2G03420	ok	assumed:frame_known trimmed CDS offset=189 no_start_ATG no_stop_codon(ends_AAA)
-7371	LOC_Os03g39830	error	CDS fetch failed for symbol 'LOC_Os03g39830'
-7572	AT1G74640	ok	assumed:frame_known trimmed CDS offset=252 no_start_ATG no_stop_codon(ends_GAG)
-7577	AT5G14140	ok	assumed:frame_known trimmed CDS offset=42 no_start_ATG no_stop_codon(ends_GTT)
-7583	nan	error	CDS fetch failed for symbol 'nan'
-7602	AT5G04520	ok	assumed:frame_known trimmed CDS offset=12 no_start_ATG no_stop_codon(ends_GCT)
-7628	RFC3	ok	assumed:frame0 seq_divergence aln=516bp cds=1110bp no_start_ATG no_stop_codon(ends_GCA)
+gene	gene_name	status	confidence	ensembl_transcript_id	fetched_at_utc	note
+4471	D2HGDH	ok	high			assumed:frame_known trimmed CDS offset=258 no_start_ATG no_stop_codon(ends_CCT)
+4527	PUR2	ok	high			assumed:frame_known trimmed CDS offset=276 no_start_ATG no_stop_codon(ends_GCT)
+4691	TL17	error				CDS fetch failed for symbol 'TL17'
+4724	AT-IE	ok	high			assumed:frame_known trimmed CDS offset=150 no_start_ATG no_stop_codon(ends_CGT)
+4744	DET1	low_confidence	low			assumed:frame0 seq_divergence aln=1560bp cds=1632bp no_start_ATG no_stop_codon(ends_ACA)
+4757	LOC_Os05g06330	error				CDS fetch failed for symbol 'LOC_Os05g06330'
+4793	LOC_Os03g52470	error				CDS fetch failed for symbol 'LOC_Os03g52470'
+4796	AT5G19150	ok	high			assumed:frame_known trimmed CDS offset=147 no_start_ATG no_stop_codon(ends_GCA)
+4802	CPFTSY	ok	high			assumed:frame_known trimmed CDS offset=135 no_start_ATG no_stop_codon(ends_TTC)
+4806	ZEU1	ok	high			assumed:frame_known trimmed CDS offset=195 no_start_ATG no_stop_codon(ends_TGG)
+4848	ARC6	ok	high			assumed:frame_known trimmed CDS offset=246 no_start_ATG no_stop_codon(ends_CTT)
+4889	LOC_Os02g07040	error				CDS fetch failed for symbol 'LOC_Os02g07040'
+4890	AT1G69680	ok	high			assumed:frame_known trimmed CDS offset=24 no_start_ATG no_stop_codon(ends_TTC)
+4893	Era-1	error				CDS fetch failed for symbol 'Era-1'
+4932	CNX2	ok	high			assumed:frame_known trimmed CDS offset=186 no_start_ATG no_stop_codon(ends_GGC)
+4942	WAV2	ok	high			assumed:frame_known trimmed CDS offset=24 no_start_ATG no_stop_codon(ends_CTC)
+4951	DIM1A	low_confidence	low			assumed:frame0 seq_divergence aln=984bp cds=1062bp no_start_ATG no_stop_codon(ends_TTC)
+4954	AT3G02710	ok	high			assumed:frame_known trimmed CDS offset=144 no_start_ATG no_stop_codon(ends_GCG)
+4989	TWD1	ok	high			assumed:frame_known trimmed CDS offset=126 no_start_ATG no_stop_codon(ends_AAA)
+4992	SCC3	ok	high			assumed:frame_known trimmed CDS offset=204 no_start_ATG no_stop_codon(ends_GAG)
+5018	ATSUFS	error				CDS fetch failed for symbol 'ATSUFS'
+5032	AT5G66540	low_confidence	low			assumed:frame0 seq_divergence aln=1467bp cds=1575bp no_start_ATG no_stop_codon(ends_GCT)
+5034	CLD1	error				CDS fetch failed for symbol 'CLD1'
+5038	ALADIN	error				CDS fetch failed for symbol 'ALADIN'
+5064	AT5G59140	ok	high			assumed:frame_known trimmed CDS offset=9 no_start_ATG no_stop_codon(ends_CAC)
+5090	ISPF	ok	high			assumed:frame_known trimmed CDS offset=216 no_start_ATG no_stop_codon(ends_AAA)
+5104	LOC_Os01g22510	error				CDS fetch failed for symbol 'LOC_Os01g22510'
+5116	AT1G16870	ok	high			assumed:frame_known trimmed CDS offset=339 no_start_ATG no_stop_codon(ends_CCT)
+5123	SKIP31	error				CDS fetch failed for symbol 'SKIP31'
+5131	TGD2	error				CDS fetch failed for symbol 'TGD2'
+5138	PPAN	ok	high			assumed:frame_known trimmed CDS offset=72 no_start_ATG no_stop_codon(ends_GAA)
+5162	ATCRSH	error				CDS fetch failed for symbol 'ATCRSH'
+5163	VPS45	ok	high			assumed:frame_known trimmed CDS offset=21 no_start_ATG no_stop_codon(ends_GGT)
+5168	RRP42	error				CDS fetch failed for symbol 'RRP42'
+5177	AT1G65030	ok	high			assumed:frame_known trimmed CDS offset=0 no_stop_codon(ends_CTT)
+5188	GDS1	error				CDS fetch failed for symbol 'GDS1'
+5200	RPL3P	ok	high			assumed:frame_known trimmed CDS offset=207 no_stop_codon(ends_GAG)
+5206	emb1473	ok	high			assumed:frame_known trimmed CDS offset=246 no_start_ATG no_stop_codon(ends_CAG)
+5220	AT2G34050	ok	high			assumed:frame_known trimmed CDS offset=189 no_start_ATG no_stop_codon(ends_CCT)
+5257	AT1G43860	ok	high			assumed:frame_known trimmed CDS offset=18 no_start_ATG no_stop_codon(ends_TTC)
+5260	LOC_Os02g49780	error				CDS fetch failed for symbol 'LOC_Os02g49780'
+5264	ATPUB49	error				CDS fetch failed for symbol 'ATPUB49'
+5271	PDF1B	ok	high			assumed:frame_known trimmed CDS offset=219 no_start_ATG no_stop_codon(ends_GAA)
+5273	AT1G71350	low_confidence	low			assumed:frame0 length_diff=-6bp (version mismatch) no_stop_codon(ends_AAG)
+5280	SETH2	ok	high			assumed:frame_known trimmed CDS offset=18 no_start_ATG no_stop_codon(ends_GAT)
+5296	LOC_Os03g45320	error				CDS fetch failed for symbol 'LOC_Os03g45320'
+5299	AT3G04970	ok	high			assumed:frame_known trimmed CDS offset=27 no_start_ATG no_stop_codon(ends_AGA)
+5304	OTU2	error				CDS fetch failed for symbol 'OTU2'
+5318	LOC_Os04g52710	error				CDS fetch failed for symbol 'LOC_Os04g52710'
+5326	LOC_Os03g23935	error				CDS fetch failed for symbol 'LOC_Os03g23935'
+5328	AT5G47090	low_confidence	low			assumed:frame0 seq_divergence aln=870bp cds=933bp no_start_ATG no_stop_codon(ends_GAA)
+5333	ELO2	error				CDS fetch failed for symbol 'ELO2'
+5335	AT4G28450	ok	high			no_stop_codon(ends_GAG)
+5339	APUM24	error				CDS fetch failed for symbol 'APUM24'
+5343	TRM8a	error				CDS fetch failed for symbol 'TRM8a'
+5347	LOC_Os03g18500	error				CDS fetch failed for symbol 'LOC_Os03g18500'
+5348	SLD5	ok	high			assumed:frame_known trimmed CDS offset=54 no_start_ATG no_stop_codon(ends_ATC)
+5354	AT1G18340	ok	high			assumed:frame_known trimmed CDS offset=30 no_start_ATG no_stop_codon(ends_GGG)
+5355	PyrD	ok	high			assumed:frame_known trimmed CDS offset=216 no_start_ATG no_stop_codon(ends_CCG)
+5357	AT5G02280	ok	high			assumed:frame_known trimmed CDS offset=15 no_start_ATG no_stop_codon(ends_CGA)
+5366	AT2G37500	ok	high			assumed:frame_known trimmed CDS offset=138 no_start_ATG no_stop_codon(ends_TCA)
+5398	ATTOP6B	error				CDS fetch failed for symbol 'ATTOP6B'
+5404	ATDPB2	error				CDS fetch failed for symbol 'ATDPB2'
+5406	ATXPD	error				CDS fetch failed for symbol 'ATXPD'
+5421	AT5G03900	ok	high			assumed:frame_known trimmed CDS offset=219 no_start_ATG no_stop_codon(ends_GAA)
+5422	PGPP1	error				CDS fetch failed for symbol 'PGPP1'
+5426	ELP2	ok	high			assumed:frame_known trimmed CDS offset=30 no_start_ATG no_stop_codon(ends_TTC)
+5427	AT5G50840	ok	high			assumed:frame_known trimmed CDS offset=363 no_start_ATG no_stop_codon(ends_AAA)
+5428	AT1G62730	ok	high			assumed:frame_known trimmed CDS offset=30 no_start_ATG no_stop_codon(ends_TTT)
+5430	AT4G29520	ok	high			assumed:frame_known trimmed CDS offset=102 no_start_ATG no_stop_codon(ends_GAG)
+5434	NBP35	ok	high			assumed:frame_known trimmed CDS offset=15 no_start_ATG no_stop_codon(ends_GTC)
+5449	AT1G55880	ok	high			assumed:frame_known trimmed CDS offset=126 no_start_ATG no_stop_codon(ends_CTC)
+5454	AT5G14460	low_confidence	low			assumed:frame0 seq_divergence aln=1122bp cds=1623bp no_start_ATG no_stop_codon(ends_TAC)
+5460	ATMND1	ok	high			assumed:frame_known trimmed CDS offset=0 no_stop_codon(ends_ATA)
+5463	LOC_Os02g38300	error				CDS fetch failed for symbol 'LOC_Os02g38300'
+5464	nan	error				CDS fetch failed for symbol 'nan'
+5469	LOC_Os12g40450	error				CDS fetch failed for symbol 'LOC_Os12g40450'
+5477	DECOY	ok	high			assumed:frame_known trimmed CDS offset=75 no_start_ATG no_stop_codon(ends_ATT)
+5489	ELF9	ok	high			assumed:frame_known trimmed CDS offset=63 no_start_ATG no_stop_codon(ends_GCT)
+5502	GCP1	ok	high			assumed:frame_known trimmed CDS offset=258 no_start_ATG no_stop_codon(ends_AGA)
+5513	AT5G38360	ok	high			assumed:frame_known trimmed CDS offset=207 no_start_ATG no_stop_codon(ends_CTA)
+5528	CSTF77	ok	high			assumed:frame_known trimmed CDS offset=9 no_start_ATG no_stop_codon(ends_AAA)
+5531	AT1G52590	ok	high			assumed:frame_known trimmed CDS offset=150 no_start_ATG no_stop_codon(ends_TCT)
+5536	AT3G60370	ok	high			assumed:frame_known trimmed CDS offset=288 no_start_ATG no_stop_codon(ends_TGC)
+5551	PUR7	ok	high			assumed:frame_known trimmed CDS offset=279 no_start_ATG no_stop_codon(ends_CTC)
+5554	CYP57	error				CDS fetch failed for symbol 'CYP57'
+5562	AT2G36930	ok	high			assumed:frame_known trimmed CDS offset=0 no_stop_codon(ends_AAG)
+5578	BolA2	error				CDS fetch failed for symbol 'BolA2'
+5594	ATCDSP32	error				CDS fetch failed for symbol 'ATCDSP32'
+5596	VPS15	ok	high			no_stop_codon(ends_AAG)
+5599	NERD1	error				CDS fetch failed for symbol 'NERD1'
+5614	AT3G03790	ok	high			assumed:frame_known trimmed CDS offset=78 no_start_ATG no_stop_codon(ends_GAA)
+5620	AT2G19870	ok	high			assumed:frame_known trimmed CDS offset=849 no_start_ATG no_stop_codon(ends_GGC)
+5634	ATSWC4	error				CDS fetch failed for symbol 'ATSWC4'
+5639	AT4G36530	ok	high			assumed:frame_known trimmed CDS offset=213 no_start_ATG no_stop_codon(ends_TTG)
+5642	AT3G48540	ok	high			assumed:frame_known trimmed CDS offset=192 no_start_ATG no_stop_codon(ends_GAA)
+5644	AT4G24880	ok	high			assumed:frame_known trimmed CDS offset=6 no_start_ATG no_stop_codon(ends_CTT)
+5656	AT2G26470	ok	high			assumed:frame_known trimmed CDS offset=183 no_start_ATG no_stop_codon(ends_AAG)
+5660	AT1G52530	ok	high			assumed:frame_known trimmed CDS offset=0 no_stop_codon(ends_GTG)
+5664	SLP1	low_confidence	low			assumed:frame0 seq_divergence aln=1002bp cds=1203bp no_start_ATG no_stop_codon(ends_AGG)
+5670	APC7	ok	high			assumed:frame_known trimmed CDS offset=9 no_start_ATG no_stop_codon(ends_ATG)
+5699	ATG5	error				CDS fetch failed for symbol 'ATG5'
+5702	QPT	ok	high			assumed:frame_known trimmed CDS offset=117 no_start_ATG no_stop_codon(ends_GCA)
+5703	EMB2762	ok	high			assumed:frame_known trimmed CDS offset=60 no_start_ATG no_stop_codon(ends_TTC)
+5716	TGH	ok	high			assumed:frame_known trimmed CDS offset=18 no_start_ATG no_stop_codon(ends_CCA)
+5721	UPM1	ok	high			assumed:frame_known trimmed CDS offset=342 no_start_ATG no_stop_codon(ends_TGG)
+5733	IPK	error				CDS fetch failed for symbol 'IPK'
+5744	GDC1	ok	high			assumed:frame_known trimmed CDS offset=171 no_start_ATG no_stop_codon(ends_CAA)
+5770	AT5G55220	ok	high			assumed:frame_known trimmed CDS offset=282 no_start_ATG no_stop_codon(ends_ATC)
+5772	PDF1A	ok	high			assumed:frame_known trimmed CDS offset=240 no_start_ATG no_stop_codon(ends_GGA)
+5791	ISPD	ok	high			assumed:frame_known trimmed CDS offset=219 no_start_ATG no_stop_codon(ends_TTG)
+5802	ORC2	ok	high			assumed:frame_known trimmed CDS offset=102 no_start_ATG no_stop_codon(ends_GAT)
+5815	EMB2407	error				CDS fetch failed for symbol 'EMB2407'
+5816	NCT	error				CDS fetch failed for symbol 'NCT'
+5821	AT4G31790	ok	high			assumed:frame_known trimmed CDS offset=0 no_stop_codon(ends_TAC)
+5822	AT4G26980	ok	high			assumed:frame_known trimmed CDS offset=138 no_start_ATG no_stop_codon(ends_AGG)
+5840	HCF244	ok	high			assumed:frame_known trimmed CDS offset=216 no_start_ATG no_stop_codon(ends_TTC)
+5841	LOC_Os08g44010	error				CDS fetch failed for symbol 'LOC_Os08g44010'
+5842	EMB9	error				CDS fetch failed for symbol 'EMB9'
+5843	AT5G52980	ok	high			assumed:frame_known trimmed CDS offset=207 no_start_ATG no_stop_codon(ends_AAA)
+5849	AT2G37680	ok	high			assumed:frame_known trimmed CDS offset=159 no_start_ATG no_stop_codon(ends_TTG)
+5853	AHP2	low_confidence	low			assumed:frame0 seq_divergence aln=600bp cds=471bp no_start_ATG no_stop_codon(ends_CTA)
+5857	PRPL3	error				CDS fetch failed for symbol 'PRPL3'
+5858	AT2G40650	ok	high			assumed:frame_known trimmed CDS offset=0 no_stop_codon(ends_TTT)
+5859	VIP3	ok	high			no_stop_codon(ends_TCA)
+5865	AT5G17930	ok	high			assumed:frame_known trimmed CDS offset=840 no_start_ATG no_stop_codon(ends_CTC)
+5866	AT3G52390	ok	high			assumed:frame_known trimmed CDS offset=51 no_start_ATG no_stop_codon(ends_CTT)
+5870	AT2G15240	ok	high			assumed:frame_known trimmed CDS offset=69 no_start_ATG no_stop_codon(ends_TTC)
+5893	AT3G15110	ok	high			assumed:frame_known trimmed CDS offset=246 no_start_ATG no_stop_codon(ends_GAA)
+5894	RLF	ok	high			assumed:frame_known trimmed CDS offset=399 no_start_ATG no_stop_codon(ends_GAT)
+5899	AT4G24840	ok	high			assumed:frame_known trimmed CDS offset=57 no_start_ATG no_stop_codon(ends_GAT)
+5910	CHLM	ok	high			assumed:frame_known trimmed CDS offset=264 no_start_ATG no_stop_codon(ends_GCT)
+5913	ATGTF2H2	error				CDS fetch failed for symbol 'ATGTF2H2'
+5918	CGL160	error				CDS fetch failed for symbol 'CGL160'
+5919	CNX3	ok	high			assumed:frame_known trimmed CDS offset=345 no_start_ATG no_stop_codon(ends_ACT)
+5921	ATSMC3	error				CDS fetch failed for symbol 'ATSMC3'
+5922	emb2738	ok	high			assumed:frame_known trimmed CDS offset=459 no_start_ATG no_stop_codon(ends_CGT)
+5926	AT4G08790	ok	high			assumed:frame_known trimmed CDS offset=111 no_start_ATG no_stop_codon(ends_CGA)
+5933	CSP41A	ok	high			assumed:frame_known trimmed CDS offset=234 no_start_ATG no_stop_codon(ends_GCC)
+5936	ATRRP4	error				CDS fetch failed for symbol 'ATRRP4'
+5940	SETH1	ok	high			assumed:frame_known trimmed CDS offset=39 no_start_ATG no_stop_codon(ends_GAT)
+5941	PFD5	ok	high			assumed:frame_known trimmed CDS offset=30 no_start_ATG no_stop_codon(ends_CAG)
+5942	RPL4	ok	high			assumed:frame_known trimmed CDS offset=204 no_start_ATG no_stop_codon(ends_GGT)
+5943	VCL1	ok	high			assumed:frame_known trimmed CDS offset=93 no_start_ATG no_stop_codon(ends_CAG)
+5944	DL4915W	error				CDS fetch failed for symbol 'DL4915W'
+5945	AT5G06360	ok	high			no_stop_codon(ends_GTG)
+5949	SD3	ok	high			assumed:frame_known trimmed CDS offset=342 no_start_ATG no_stop_codon(ends_GCC)
+5950	AT2G25280	ok	high			assumed:frame_known trimmed CDS offset=12 no_start_ATG no_stop_codon(ends_GCC)
+5958	PSB28	ok	high			assumed:frame_known trimmed CDS offset=258 no_start_ATG no_stop_codon(ends_AAG)
+5960	FIO1	ok	high			assumed:frame_known trimmed CDS offset=147 no_start_ATG no_stop_codon(ends_TTG)
+5968	FdC2	low_confidence	low			assumed:frame0 seq_divergence aln=369bp cds=585bp no_start_ATG no_stop_codon(ends_GAA)
+5974	AT5G48790	ok	high			assumed:frame_known trimmed CDS offset=228 no_start_ATG no_stop_codon(ends_TCC)
+5977	AT5G40530	low_confidence	low			assumed:frame0 seq_divergence aln=672bp cds=933bp no_start_ATG no_stop_codon(ends_CGA)
+5980	AT1G50450	ok	high			assumed:frame_known trimmed CDS offset=117 no_start_ATG no_stop_codon(ends_GTA)
+5981	OGG1	ok	high			assumed:frame_known trimmed CDS offset=144 no_start_ATG no_stop_codon(ends_AAA)
+5990	MED21	ok	high			assumed:frame_known trimmed CDS offset=0 no_stop_codon(ends_CCT)
+6000	AT3G25470	ok	high			assumed:frame_known trimmed CDS offset=156 no_start_ATG no_stop_codon(ends_TTT)
+6003	PRPL28	ok	high			assumed:frame_known trimmed CDS offset=195 no_start_ATG no_stop_codon(ends_AAG)
+6004	PANC	ok	high			assumed:frame_known trimmed CDS offset=33 no_stop_codon(ends_ATC)
+6016	AT3G08650	ok	high			assumed:frame_known trimmed CDS offset=285 no_start_ATG no_stop_codon(ends_GTT)
+6026	ECHID	ok	high			assumed:frame_known trimmed CDS offset=129 no_start_ATG no_stop_codon(ends_CCT)
+6029	PMES	error				CDS fetch failed for symbol 'PMES'
+6034	POLA3	ok	high			assumed:frame_known trimmed CDS offset=87 no_start_ATG no_stop_codon(ends_TGG)
+6036	NSN1	ok	high			assumed:frame_known trimmed CDS offset=0 no_stop_codon(ends_ATG)
+6038	VTE1	ok	high			assumed:frame_known trimmed CDS offset=216 no_start_ATG no_stop_codon(ends_CTG)
+6041	GCP4	ok	high			assumed:frame_known trimmed CDS offset=0 no_stop_codon(ends_ACT)
+6048	TAF13	ok	high			assumed:frame_known trimmed CDS offset=75 no_start_ATG no_stop_codon(ends_CTC)
+6050	EER5	ok	high			assumed:frame_known trimmed CDS offset=18 no_start_ATG no_stop_codon(ends_GTT)
+6051	EMB2768	ok	high			assumed:frame_known trimmed CDS offset=342 no_start_ATG no_stop_codon(ends_ATT)
+6056	AT5G26180	low_confidence	low			assumed:frame0 seq_divergence aln=1245bp cds=1704bp no_start_ATG no_stop_codon(ends_TTC)
+6064	AtUSB1	error				CDS fetch failed for symbol 'AtUSB1'
+6068	AT3G05070	ok	high			assumed:frame_known trimmed CDS offset=138 no_stop_codon(ends_CTC)
+6072	AT5G19370	ok	high			assumed:frame_known trimmed CDS offset=282 no_start_ATG no_stop_codon(ends_TAC)
+6098	COG7	error				CDS fetch failed for symbol 'COG7'
+6110	AT4G39880	ok	high			assumed:frame_known trimmed CDS offset=0 no_stop_codon(ends_AAG)
+6114	HscB	error				CDS fetch failed for symbol 'HscB'
+6119	EOL1	low_confidence	low			assumed:frame0 seq_divergence aln=2421bp cds=2667bp no_start_ATG no_stop_codon(ends_GAG)
+6128	AT5G53800	ok	high			assumed:frame_known trimmed CDS offset=549 no_start_ATG no_stop_codon(ends_GAT)
+6130	PAHX	ok	high			assumed:frame_known trimmed CDS offset=30 no_start_ATG no_stop_codon(ends_TAT)
+6139	OTC	ok	high			assumed:frame_known trimmed CDS offset=216 no_start_ATG no_stop_codon(ends_GGC)
+6148	AT2G28605	ok	high			assumed:frame_known trimmed CDS offset=228 no_start_ATG no_stop_codon(ends_GAT)
+6150	AT3G01920	low_confidence	low			assumed:frame0 seq_divergence aln=642bp cds=1005bp no_start_ATG no_stop_codon(ends_GTG)
+6164	AT5G10700	low_confidence	low			assumed:frame0 seq_divergence aln=342bp cds=603bp no_start_ATG no_stop_codon(ends_AAG)
+6175	AT5G06830	ok	high			assumed:frame_known trimmed CDS offset=21 no_start_ATG no_stop_codon(ends_GCT)
+6176	ATERS	error				CDS fetch failed for symbol 'ATERS'
+6198	AT3G05760	ok	high			assumed:frame_known trimmed CDS offset=24 no_start_ATG no_stop_codon(ends_TCA)
+6216	LPA3	ok	high			assumed:frame_known trimmed CDS offset=135 no_start_ATG no_stop_codon(ends_AAC)
+6221	AT3G06950	ok	high			assumed:frame_known trimmed CDS offset=123 no_start_ATG no_stop_codon(ends_AAA)
+6226	ENF2	error				CDS fetch failed for symbol 'ENF2'
+6227	ENH1	ok	high			assumed:frame_known trimmed CDS offset=249 no_start_ATG no_stop_codon(ends_CAA)
+6238	AT2G40570	ok	high			assumed:frame_known trimmed CDS offset=42 no_start_ATG no_stop_codon(ends_CTC)
+6258	PDS2	error				CDS fetch failed for symbol 'PDS2'
+6265	EMB2804	ok	high			assumed:frame_known trimmed CDS offset=30 no_start_ATG no_stop_codon(ends_GAA)
+6270	ATFH	error				CDS fetch failed for symbol 'ATFH'
+6274	PYG7	error				CDS fetch failed for symbol 'PYG7'
+6282	AT5G52970	ok	high			assumed:frame_known trimmed CDS offset=249 no_start_ATG no_stop_codon(ends_ATC)
+6284	AT2G44660	ok	high			assumed:frame_known trimmed CDS offset=54 no_start_ATG no_stop_codon(ends_CTC)
+6295	SQD1	ok	high			assumed:frame_known trimmed CDS offset=252 no_start_ATG no_stop_codon(ends_ACA)
+6298	AT1G03150	ok	high			no_stop_codon(ends_GAT)
+6299	AT4G00030	ok	high			assumed:frame_known trimmed CDS offset=117 no_start_ATG no_stop_codon(ends_ACT)
+6303	LOC_Os05g13370	error				CDS fetch failed for symbol 'LOC_Os05g13370'
+6318	AT3G56040	ok	high			assumed:frame_known trimmed CDS offset=663 no_start_ATG no_stop_codon(ends_GAG)
+6320	EngA-2	error				CDS fetch failed for symbol 'EngA-2'
+6363	TrmE	error				CDS fetch failed for symbol 'TrmE'
+6366	LOC_Os03g05720	error				CDS fetch failed for symbol 'LOC_Os03g05720'
+6373	PRDA1	error				CDS fetch failed for symbol 'PRDA1'
+6376	INDL	error				CDS fetch failed for symbol 'INDL'
+6378	AT3G15520	ok	high			assumed:frame_known trimmed CDS offset=333 no_start_ATG no_stop_codon(ends_CCT)
+6379	AT4G08280	ok	high			assumed:frame_known trimmed CDS offset=126 no_start_ATG no_stop_codon(ends_GCC)
+6383	PDE312	low_confidence	low			assumed:frame0 seq_divergence aln=1641bp cds=2094bp no_start_ATG no_stop_codon(ends_AAA)
+6384	pde194	ok	high			assumed:frame_known trimmed CDS offset=78 no_start_ATG no_stop_codon(ends_CTG)
+6387	TGD1	error				CDS fetch failed for symbol 'TGD1'
+6389	LOC_Os09g29420	error				Cannot find sequence with 'Arabidopsis_thaliana' in alignment. Sample headers: ['6389 Gene_Name:LOC_Os09g29420 Species:Lophopyxis_maingayi Repository:INSDC Seque', '6389 Gene_Name:LOC_Os09g29420 Species:Saxifraga_maderensis Repository:INSDC Sequ', '6389 Gene_Name:LOC_Os09g29420 Species:Saxifraga_biflora Repository:INSDC Sequenc', '6389 Gene_Name:LOC_Os09g29420 Species:Saxifraga_portosanctana Repository:INSDC S', '6389 Gene_Name:LOC_Os09g29420 Species:Echinops_spinosissimus Repository:INSDC Se']
+6393	AT4G00560	low_confidence	low			assumed:frame0 seq_divergence aln=774bp cds=996bp no_start_ATG no_stop_codon(ends_CTT)
+6398	DL4280W	error				CDS fetch failed for symbol 'DL4280W'
+6401	UCP3	ok	high			assumed:frame_known trimmed CDS offset=42 no_start_ATG no_stop_codon(ends_TTC)
+6404	RID2	ok	high			assumed:frame_known trimmed CDS offset=9 no_start_ATG no_stop_codon(ends_TTC)
+6405	MED8	error				CDS (len=1575) not found in ungapped A. thaliana seq (len=1226); sequences may differ between TAIR versions
+6406	ATATG18B	error				CDS fetch failed for symbol 'ATATG18B'
+6407	AT1G67620	ok	high			assumed:frame_known trimmed CDS offset=138 no_start_ATG no_stop_codon(ends_TGG)
+6412	FIB4	ok	high			assumed:frame_known trimmed CDS offset=255 no_start_ATG no_stop_codon(ends_ATT)
+6420	AT1G06240	ok	high			assumed:frame_known trimmed CDS offset=108 no_start_ATG no_stop_codon(ends_AAT)
+6430	LOC_Os06g10340	error				CDS fetch failed for symbol 'LOC_Os06g10340'
+6432	RPH1	low_confidence	low			assumed:frame0 seq_divergence aln=411bp cds=606bp no_start_ATG no_stop_codon(ends_GAA)
+6439	ATNAP13	error				CDS fetch failed for symbol 'ATNAP13'
+6447	AT2G27290	ok	high			assumed:frame_known trimmed CDS offset=186 no_start_ATG no_stop_codon(ends_ATT)
+6448	MTP5	error				CDS fetch failed for symbol 'MTP5'
+6449	AT5G57860	ok	high			assumed:frame_known trimmed CDS offset=6 no_stop_codon(ends_CAG)
+6450	AT5G10920	ok	high			assumed:frame_known trimmed CDS offset=165 no_start_ATG no_stop_codon(ends_CTT)
+6454	AT2G25950	ok	high			assumed:frame_known trimmed CDS offset=0 no_stop_codon(ends_GTT)
+6457	NSE3	error				CDS fetch failed for symbol 'NSE3'
+6458	HCAR	ok	high			assumed:frame_known trimmed CDS offset=114 no_start_ATG no_stop_codon(ends_CTC)
+6459	AT4G28740	ok	high			assumed:frame_known trimmed CDS offset=273 no_start_ATG no_stop_codon(ends_GTG)
+6460	COQ6	error				CDS fetch failed for symbol 'COQ6'
+6462	NLP1	low_confidence	low			assumed:frame0 seq_divergence aln=867bp cds=981bp no_start_ATG no_stop_codon(ends_GGT)
+6483	AT4G31530	low_confidence	low			assumed:frame0 seq_divergence aln=750bp cds=1017bp no_start_ATG no_stop_codon(ends_GCA)
+6487	AO	ok	high			assumed:frame_known trimmed CDS offset=243 no_start_ATG no_stop_codon(ends_ATT)
+6488	TAP38	ok	high			assumed:frame_known trimmed CDS offset=168 no_start_ATG no_stop_codon(ends_TGG)
+6492	HCF164	ok	high			assumed:frame_known trimmed CDS offset=264 no_start_ATG no_stop_codon(ends_GGA)
+6494	AT1G49380	ok	high			assumed:frame_known trimmed CDS offset=312 no_start_ATG no_stop_codon(ends_GAG)
+6496	emb2444	ok	high			assumed:frame_known trimmed CDS offset=0 no_stop_codon(ends_CCA)
+6498	PSAG	ok	high			assumed:frame_known trimmed CDS offset=177 no_start_ATG no_stop_codon(ends_TTC)
+6500	AT2G20330	low_confidence	low			assumed:frame0 seq_divergence aln=1437bp cds=1947bp no_start_ATG no_stop_codon(ends_GAA)
+6506	AT2G43560	ok	high			assumed:frame_known trimmed CDS offset=225 no_start_ATG no_stop_codon(ends_CTC)
+6507	AT3G59630	ok	high			assumed:frame_known trimmed CDS offset=15 no_start_ATG no_stop_codon(ends_GAG)
+6514	nan	error				CDS fetch failed for symbol 'nan'
+6526	AT3G60660	ok	high			assumed:frame_known trimmed CDS offset=15 no_start_ATG no_stop_codon(ends_CCT)
+6527	AT1G49980	low_confidence	low			assumed:frame0 seq_divergence aln=1797bp cds=2016bp no_start_ATG no_stop_codon(ends_ACT)
+6528	AT5G57040	ok	high			assumed:frame_known trimmed CDS offset=219 no_start_ATG no_stop_codon(ends_GTT)
+6531	DCC1	error				CDS fetch failed for symbol 'DCC1'
+6532	EDA3	ok	high			assumed:frame_known trimmed CDS offset=303 no_start_ATG no_stop_codon(ends_GAT)
+6533	DELTA-OAT	ok	high			assumed:frame_known trimmed CDS offset=126 no_start_ATG no_stop_codon(ends_CTG)
+6538	PPD6	ok	high			assumed:frame_known trimmed CDS offset=198 no_start_ATG no_stop_codon(ends_CTG)
+6540	LOC_Os01g16340	error				CDS fetch failed for symbol 'LOC_Os01g16340'
+6544	EDA25	low_confidence	low			assumed:frame0 seq_divergence aln=2175bp cds=3132bp no_start_ATG no_stop_codon(ends_AAG)
+6550	AT5G04910	ok	high			assumed:frame_known trimmed CDS offset=138 no_start_ATG no_stop_codon(ends_GAA)
+6552	ATNAP14	error				CDS fetch failed for symbol 'ATNAP14'
+6557	AT1G53760	ok	high			assumed:frame_known trimmed CDS offset=159 no_start_ATG no_stop_codon(ends_TAT)
+6559	LOC_Os07g39980	error				Cannot find sequence with 'Arabidopsis_thaliana' in alignment. Sample headers: ['6559 Gene_Name:LOC_Os07g39980 Species:Saxifraga_fortunei Repository:INSDC Sequen', '6559 Gene_Name:LOC_Os07g39980 Species:Saxifraga_maderensis Repository:INSDC Sequ', '6559 Gene_Name:LOC_Os07g39980 Species:Saxifraga_biflora Repository:INSDC Sequenc', '6559 Gene_Name:LOC_Os07g39980 Species:Saxifraga_portosanctana Repository:INSDC S', '6559 Gene_Name:LOC_Os07g39980 Species:Echinops_acantholepis Repository:INSDC Seq']
+6563	TPST	ok	high			assumed:frame_known trimmed CDS offset=90 no_start_ATG no_stop_codon(ends_GAA)
+6565	PP4R2L	error				CDS fetch failed for symbol 'PP4R2L'
+6570	AT5G60590	ok	high			assumed:frame_known trimmed CDS offset=231 no_start_ATG no_stop_codon(ends_CTT)
+6572	GC1	low_confidence	low			assumed:frame0 seq_divergence aln=900bp cds=2133bp no_stop_codon(ends_ATT)
+6601	AT1G45110	ok	high			assumed:frame_known trimmed CDS offset=156 no_start_ATG no_stop_codon(ends_AAG)
+6620	CXIP2	ok	high			assumed:frame_known trimmed CDS offset=258 no_start_ATG no_stop_codon(ends_TTG)
+6631	AT1G74530	ok	high			assumed:frame_known trimmed CDS offset=177 no_start_ATG no_stop_codon(ends_CTC)
+6636	AT1G28140	ok	high			assumed:frame_known trimmed CDS offset=156 no_start_ATG no_stop_codon(ends_ATA)
+6639	AT1G11780	ok	high			assumed:frame_known trimmed CDS offset=231 no_start_ATG no_stop_codon(ends_AGG)
+6641	CCB1	ok	high			assumed:frame_known trimmed CDS offset=243 no_start_ATG no_stop_codon(ends_GAG)
+6649	PFD1	ok	high			assumed:frame_known trimmed CDS offset=0 no_stop_codon(ends_ATG)
+6652	EBS3	ok	high			assumed:frame_known trimmed CDS offset=144 no_start_ATG no_stop_codon(ends_AGA)
+6660	AT1G72640	ok	high			assumed:frame_known trimmed CDS offset=156 no_start_ATG no_stop_codon(ends_GAA)
+6667	RH57	error				CDS fetch failed for symbol 'RH57'
+6679	CCB4	ok	high			assumed:frame_known trimmed CDS offset=147 no_start_ATG no_stop_codon(ends_AGA)
+6685	SCS9	error				CDS fetch failed for symbol 'SCS9'
+6689	IMPL1	ok	high			assumed:frame_known trimmed CDS offset=210 no_start_ATG no_stop_codon(ends_GAG)
+6705	AT3G62810	ok	high			assumed:frame_known trimmed CDS offset=18 no_start_ATG no_stop_codon(ends_GAG)
+6713	AT4G06676	ok	high			assumed:frame_known trimmed CDS offset=30 no_start_ATG no_stop_codon(ends_GCT)
+6717	EMB269	ok	high			assumed:frame_known trimmed CDS offset=582 no_start_ATG no_stop_codon(ends_GAT)
+6732	REV7	ok	high			assumed:frame_known trimmed CDS offset=42 no_start_ATG no_stop_codon(ends_TTG)
+6733	AT4G37020	low_confidence	low			assumed:frame0 seq_divergence aln=573bp cds=777bp no_start_ATG no_stop_codon(ends_ATC)
+6738	AT5G44710	ok	high			assumed:frame_known trimmed CDS offset=15 no_start_ATG no_stop_codon(ends_GCT)
+6746	CYN	ok	high			assumed:frame_known trimmed CDS offset=57 no_start_ATG no_stop_codon(ends_CAG)
+6779	AT1G65230	ok	high			assumed:frame_known trimmed CDS offset=159 no_start_ATG no_stop_codon(ends_ATC)
+6780	DAC	ok	high			assumed:frame_known trimmed CDS offset=243 no_start_ATG no_stop_codon(ends_AAG)
+6782	AT5G63000	ok	high			assumed:frame_known trimmed CDS offset=66 no_start_ATG no_stop_codon(ends_AAA)
+6785	AT1G12244	ok	high			assumed:frame_known trimmed CDS offset=243 no_start_ATG no_stop_codon(ends_ATC)
+6791	AT2G41760	ok	high			assumed:frame_known trimmed CDS offset=69 no_start_ATG no_stop_codon(ends_GCC)
+6792	AT5G50110	ok	high			assumed:frame_known trimmed CDS offset=198 no_start_ATG no_stop_codon(ends_TTG)
+6797	SWC2	ok	high			assumed:frame_known trimmed CDS offset=33 no_start_ATG no_stop_codon(ends_CGT)
+6825	RBF1	error				CDS fetch failed for symbol 'RBF1'
+6848	AT4G38370	ok	high			assumed:frame_known trimmed CDS offset=27 no_start_ATG no_stop_codon(ends_CAG)
+6854	AT1G03030	ok	high			assumed:frame_known trimmed CDS offset=216 no_start_ATG no_stop_codon(ends_TCT)
+6859	LOC_Os07g07470	error				CDS fetch failed for symbol 'LOC_Os07g07470'
+6860	AT4G27120	ok	high			assumed:frame_known trimmed CDS offset=30 no_stop_codon(ends_CAG)
+6864	NPU	ok	high			assumed:frame_known trimmed CDS offset=96 no_start_ATG no_stop_codon(ends_GAG)
+6865	AT1G22800	ok	high			assumed:frame_known trimmed CDS offset=150 no_start_ATG no_stop_codon(ends_TTT)
+6875	AT5G62030	ok	high			assumed:frame_known trimmed CDS offset=51 no_start_ATG no_stop_codon(ends_TGG)
+6882	AT4G18260	error				Cannot find sequence with 'Arabidopsis_thaliana' in alignment. Sample headers: ['6882 Gene_Name:AT4G18260 Species:Saxifraga_fortunei Repository:INSDC Sequence_ID', '6882 Gene_Name:AT4G18260 Species:Lophopyxis_maingayi Repository:INSDC Sequence_I', '6882 Gene_Name:AT4G18260 Species:Saxifraga_maderensis Repository:INSDC Sequence_', '6882 Gene_Name:AT4G18260 Species:Saxifraga_portosanctana Repository:INSDC Sequen', '6882 Gene_Name:AT4G18260 Species:Echinops_strigosus Repository:INSDC Sequence_ID']
+6883	UREG	ok	high			assumed:frame_known trimmed CDS offset=84 no_start_ATG no_stop_codon(ends_CGC)
+6886	nan	error				CDS fetch failed for symbol 'nan'
+6893	AT2G24970	ok	high			assumed:frame_known trimmed CDS offset=30 no_start_ATG no_stop_codon(ends_ACA)
+6909	COX11	error				CDS fetch failed for symbol 'COX11'
+6913	HCF136	ok	high			assumed:frame_known trimmed CDS offset=330 no_start_ATG no_stop_codon(ends_GGC)
+6914	AT5G06260	ok	high			assumed:frame_known trimmed CDS offset=33 no_start_ATG no_stop_codon(ends_TCA)
+6924	TIC56	error				CDS fetch failed for symbol 'TIC56'
+6933	DNMT2	ok	high			assumed:frame_known trimmed CDS offset=45 no_start_ATG no_stop_codon(ends_TTC)
+6946	AT3G03100	ok	high			assumed:frame_known trimmed CDS offset=3 no_start_ATG no_stop_codon(ends_CCC)
+6947	EMB260	error				CDS fetch failed for symbol 'EMB260'
+6954	AT1G50575	ok	high			assumed:frame_known trimmed CDS offset=195 no_start_ATG no_stop_codon(ends_TAT)
+6955	NPQ6	ok	high			assumed:frame_known trimmed CDS offset=162 no_start_ATG no_stop_codon(ends_AGC)
+6958	LpxA	ok	high			assumed:frame_known trimmed CDS offset=120 no_start_ATG no_stop_codon(ends_TTC)
+6961	EMB3129	ok	high			assumed:frame_known trimmed CDS offset=243 no_start_ATG no_stop_codon(ends_CCT)
+6962	LOC_Os05g33290	error				Cannot find sequence with 'Arabidopsis_thaliana' in alignment. Sample headers: ['6962 Gene_Name:LOC_Os05g33290 Species:Saxifraga_fortunei Repository:INSDC Sequen', '6962 Gene_Name:LOC_Os05g33290 Species:Saxifraga_maderensis Repository:INSDC Sequ', '6962 Gene_Name:LOC_Os05g33290 Species:Echinops_acantholepis Repository:INSDC Seq', '6962 Gene_Name:LOC_Os05g33290 Species:Echinops_spinosissimus Repository:INSDC Se', '6962 Gene_Name:LOC_Os05g33290 Species:Echinops_strigosus Repository:INSDC Sequen']
+6968	CcdA	ok	high			assumed:frame_known trimmed CDS offset=291 no_start_ATG no_stop_codon(ends_CCT)
+6969	ATSRX	error				CDS fetch failed for symbol 'ATSRX'
+6977	AT4G26310	low_confidence	low			assumed:frame0 seq_divergence aln=543bp cds=786bp no_start_ATG no_stop_codon(ends_TTT)
+6978	AT5G19850	ok	high			assumed:frame_known trimmed CDS offset=231 no_start_ATG no_stop_codon(ends_CAT)
+6979	DRL1	ok	high			assumed:frame_known trimmed CDS offset=0 no_stop_codon(ends_GGA)
+6992	ARPC4	low_confidence	low			assumed:frame0 seq_divergence aln=495bp cds=531bp no_start_ATG no_stop_codon(ends_ATG)
+6995	AT1G30130	ok	high			assumed:frame_known trimmed CDS offset=0 no_stop_codon(ends_GAT)
+7013	PPD5	ok	high			assumed:frame_known trimmed CDS offset=324 no_start_ATG no_stop_codon(ends_TGG)
+7021	AT1G78915	low_confidence	low			assumed:frame0 seq_divergence aln=909bp cds=1218bp no_start_ATG no_stop_codon(ends_TAC)
+7024	MIA40	ok	high			assumed:frame_known trimmed CDS offset=108 no_start_ATG no_stop_codon(ends_AAA)
+7028	AT4G24930	ok	high			assumed:frame_known trimmed CDS offset=219 no_start_ATG no_stop_codon(ends_GGT)
+7029	AT5G64730	ok	high			assumed:frame_known trimmed CDS offset=15 no_start_ATG no_stop_codon(ends_AAA)
+7067	AT1G26940	ok	high			assumed:frame_known trimmed CDS offset=84 no_start_ATG no_stop_codon(ends_TTC)
+7111	AT3G10130	low_confidence	low			assumed:frame0 seq_divergence aln=738bp cds=930bp no_start_ATG no_stop_codon(ends_GTT)
+7128	BCE2	low_confidence	low			assumed:frame0 seq_divergence aln=1194bp cds=1452bp no_start_ATG no_stop_codon(ends_AGA)
+7135	AT3G26085	ok	high			assumed:frame_known trimmed CDS offset=390 no_start_ATG no_stop_codon(ends_CGA)
+7136	HHL1	error				CDS fetch failed for symbol 'HHL1'
+7141	PDE329	ok	high			assumed:frame_known trimmed CDS offset=171 no_start_ATG no_stop_codon(ends_CAA)
+7174	EMB3108	ok	high			assumed:frame_known trimmed CDS offset=237 no_start_ATG no_stop_codon(ends_AAG)
+7194	AT1G76450	ok	high			assumed:frame_known trimmed CDS offset=270 no_start_ATG no_stop_codon(ends_AGA)
+7241	AT4G01935	ok	high			assumed:frame_known trimmed CDS offset=153 no_start_ATG no_stop_codon(ends_CTA)
+7273	AT2G35450	ok	high			assumed:frame_known trimmed CDS offset=180 no_start_ATG no_stop_codon(ends_CAG)
+7279	SRRP1	error				CDS fetch failed for symbol 'SRRP1'
+7296	AT5G08320	ok	high			assumed:frame_known trimmed CDS offset=30 no_start_ATG no_stop_codon(ends_CCA)
+7313	AT3G02300	ok	high			assumed:frame_known trimmed CDS offset=87 no_start_ATG no_stop_codon(ends_GAG)
+7324	CHL	ok	high			assumed:frame_known trimmed CDS offset=378 no_start_ATG no_stop_codon(ends_AAA)
+7325	AT3G12210	ok	high			assumed:frame_known trimmed CDS offset=12 no_start_ATG no_stop_codon(ends_AAG)
+7331	AT1G09800	ok	high			assumed:frame_known trimmed CDS offset=159 no_start_ATG no_stop_codon(ends_TTT)
+7333	U11/U12-31K	error				CDS fetch failed for symbol 'U11/U12-31K'
+7336	AT1G26220	ok	high			assumed:frame_known trimmed CDS offset=156 no_start_ATG no_stop_codon(ends_GTT)
+7361	AT2G35360	ok	high			assumed:frame_known trimmed CDS offset=51 no_start_ATG no_stop_codon(ends_ATG)
+7363	AT2G36895	low_confidence	low			assumed:frame0 seq_divergence aln=483bp cds=780bp no_start_ATG no_stop_codon(ends_TTC)
+7367	AT2G03420	ok	high			assumed:frame_known trimmed CDS offset=189 no_start_ATG no_stop_codon(ends_AAA)
+7371	LOC_Os03g39830	error				CDS fetch failed for symbol 'LOC_Os03g39830'
+7572	AT1G74640	ok	high			assumed:frame_known trimmed CDS offset=252 no_start_ATG no_stop_codon(ends_GAG)
+7577	AT5G14140	ok	high			assumed:frame_known trimmed CDS offset=42 no_start_ATG no_stop_codon(ends_GTT)
+7583	nan	error				CDS fetch failed for symbol 'nan'
+7602	AT5G04520	ok	high			assumed:frame_known trimmed CDS offset=12 no_start_ATG no_stop_codon(ends_GCT)
+7628	RFC3	low_confidence	low			assumed:frame0 seq_divergence aln=516bp cds=1110bp no_start_ATG no_stop_codon(ends_GCA)

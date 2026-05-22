@@ -61,7 +61,9 @@ python scripts/annotate_codon_positions.py \
 | `col_index` | 0-based alignment column index |
 | `codon_pos` | `1`, `2`, `3` = codon position; `U` = UTR/non-CDS; `-` = gap column |
 
-**`summary.tsv` columns:** `gene`, `gene_name`, `status`, `note`
+**`summary.tsv` columns:** `gene`, `gene_name`, `status`, `confidence`, `ensembl_transcript_id`, `fetched_at_utc`, `note`
+
+`status=ok` is reserved for exact CDS matches with high-confidence frame annotations. Records where the exact CDS position could not be established are written as `status=low_confidence` with `confidence=low`.
 
 The `note` field encodes how the frame was determined and any diagnostic warnings (space-separated):
 
@@ -69,23 +71,44 @@ The `note` field encodes how the frame was determined and any diagnostic warning
 |-------------|---------|
 | *(empty)* | Exact match: full CDS found within the alignment (alignment has flanking sequence) |
 | `assumed:frame_known trimmed CDS offset=N` | Exact match: alignment is a substring of the CDS starting at CDS position N; frame derived from offset |
-| `assumed:frame0 length_diff=Nbp (version mismatch)` | Lengths differ by ≤9 bp; exact match failed; frame 0 assumed |
-| `assumed:frame0 seq_divergence aln=Xbp cds=Ybp` | Exact match failed; alignment length divisible by 3; frame 0 assumed |
+| `assumed:frame0 length_diff=Nbp (version mismatch)` | Low confidence: lengths differ by ≤9 bp; exact match failed; frame 0 assumed |
+| `assumed:frame0 seq_divergence aln=Xbp cds=Ybp` | Low confidence: exact match failed; alignment length divisible by 3; frame 0 assumed |
 | `no_start_ATG` | Extracted CDS region does not begin with ATG (expected for trimmed alignments) |
 | `no_stop_codon(ends_NNN)` | Extracted CDS region does not end with a stop codon (expected for trimmed alignments) |
 | `not_div3(len=N)` | CDS region length not divisible by 3 |
 
 ### `scripts/validate_translations.py`
 
-Validation script. For a random sample of annotated genes, translates the annotated *A. thaliana* CDS and compares the result against the Ensembl reference protein. Checks that the translated slice matches the expected position in the reference (`ref[offset//3 : offset//3 + len(translation)]`).
+Validation script. For a random sample of annotated genes, reconstructs the annotated *A. thaliana* CDS from the `*_codon_pos.tsv` columns, translates it, and compares the result against the Ensembl reference protein. Checks that the translated slice matches the expected position in the reference.
 
 **Usage:**
 ```bash
 python scripts/validate_translations.py \
     --summary results/codon_annotations/summary.tsv \
     --hc_dir results/high_confidence_alignments \
+    --annotation_dir results/high_confidence_alignments \
     --n 10 \
-    [--seed 42]
+    [--seed 42] \
+    [--all]
+```
+
+The default `--hc_dir` requires the precomputed high-confidence FASTA files. On a fresh clone, first download `data/alignments/` and run the derived-output command below.
+
+### `scripts/build_derived_outputs.py`
+
+Builds the cleaned category table, high-confidence FASTA/TSV directory, and shortlist-subsetted files from `summary.tsv`.
+
+**Usage:**
+```bash
+python scripts/build_derived_outputs.py \
+    --summary results/codon_annotations/summary.tsv \
+    --aln_dir data/alignments \
+    --annotations_dir results/codon_annotations \
+    --per_gene_notes results/per_gene_notes.tsv \
+    --high_confidence_dir results/high_confidence_alignments \
+    --shortlist shortlist.txt \
+    --shortlist_dir results/shortlist_files \
+    --species_alias "Streptanthus tortuosus=Streptanthus carinatus"
 ```
 
 ## Results
@@ -95,18 +118,19 @@ python scripts/validate_translations.py \
 | Category | Count |
 |----------|-------|
 | Annotated — exact match, frame known from CDS offset | 222 |
-| Annotated — frame assumed (seq divergence or version mismatch) | 31 |
-| Annotated — exact match with flanking sequence | ~5 |
+| Annotated — exact/flanked match | 5 |
+| Low confidence — frame assumed from sequence divergence | 30 |
+| Low confidence — frame assumed from version mismatch | 1 |
 | Error — gene symbol not found in Ensembl | 72 |
-| Error — rice `LOC_Os` symbol (no *A. thaliana* entry) | 18 |
-| Error — no *A. thaliana* sequence in alignment | 4 |
+| Error — rice `LOC_Os` symbol (no *A. thaliana* entry) | 21 |
+| Error — no *A. thaliana* sequence in alignment | 1 |
 | Error — other | 1 |
 
 Full per-gene results: `results/codon_annotations/summary.tsv`. A cleaned version with standardised category labels is at `results/per_gene_notes.tsv`.
 
 ### Validation
 
-The 222 high-confidence annotations were validated by translating each annotated *A. thaliana* region and comparing the result against the Ensembl reference protein at the expected position (`ref[offset//3 : offset//3 + len(translation)]`). 10 genes were sampled at random (seed 42):
+The validation script now reconstructs the coding slice from the codon-position TSV before translation, so it checks the annotation file rather than only ungapping the FASTA row. A previous smoke-test run sampled 10 trimmed exact-match genes at random (seed 42):
 
 | Gene ID | Symbol | CDS offset | Ref slice | Result |
 |---------|--------|-----------|-----------|--------|
@@ -121,11 +145,11 @@ The 222 high-confidence annotations were validated by translating each annotated
 | 6913 | HCF136 | 330 | ref[110:426] | ✓ exact |
 | 5348 | SLD5 | 54 | ref[18:220] | ✓ exact |
 
-**10/10 exact matches.** All translated sequences matched the corresponding slice of the Ensembl reference protein with 100% identity.
+**10/10 exact matches.** All translated sequences matched the corresponding slice of the Ensembl reference protein with 100% identity. For final analyses, run with `--all` to validate all high-confidence genes.
 
 ### High-confidence output
 
-The 222 exact-match genes are collected in `results/high_confidence_alignments/`, with both the source alignment and annotation TSV for each gene:
+The 227 high-confidence exact-match genes are collected in `results/high_confidence_alignments/`, with both the source alignment and annotation TSV for each gene:
 
 ```
 results/high_confidence_alignments/
@@ -133,18 +157,18 @@ results/high_confidence_alignments/
 ├── 4471_D2HGDH_codon_pos.tsv
 ├── 4527.dna.aln.fasta
 ├── 4527_PUR2_codon_pos.tsv
-└── ...  (222 pairs = 444 files total)
+└── ...  (227 pairs = 454 files total)
 ```
 
 ### Species shortlist and subsetted alignments
 
-`shortlist.txt` contains 16 focal crop and model species:
+`shortlist.txt` contains 16 focal crop and model species. The source list names *Streptanthus tortuosus*; generated shortlist outputs use *Streptanthus carinatus* as the available proxy via the alias shown in the derived-output command above.
 
 | Species | Notes |
 |---------|-------|
 | *Arabidopsis thaliana* | |
 | *Brassica napus* | |
-| *Streptanthus carinatus* | proxy for *S. tortuosus* (not in dataset) |
+| *Streptanthus tortuosus* | generated outputs use *S. carinatus* as proxy |
 | *Phaseolus vulgaris* | |
 | *Glycine max* | |
 | *Helianthus annuus* | |
@@ -159,7 +183,7 @@ results/high_confidence_alignments/
 | *Setaria italica* | |
 | *Sorghum bicolor* | |
 
-For each of the 222 high-confidence genes, alignments were subsetted to these species only and copied alongside their annotation TSVs to `results/shortlist_files/`. 44 genes are missing at least one shortlist species in their alignment (most commonly *Streptanthus carinatus*, absent from 24 genes); those files contain fewer than 16 sequences. The annotation TSVs are copied as-is since column indices are independent of which species are present.
+For each of the 227 high-confidence genes, alignments were subsetted to these species only and copied alongside their annotation TSVs to `results/shortlist_files/`. Current shortlist FASTAs contain 9 files with 16 records, 36 with 17 records, and 182 with 18 records. Counts above 16 occur because prefix matching includes subspecies such as `Glycine_max_subsp._soja` and `Sorghum_bicolor_nothosubsp._drummondii`. The annotation TSVs are copied as-is since column indices are independent of which species are present.
 
 ## Setup
 
@@ -190,7 +214,8 @@ phylogenes/
 │   └── shortlist_files/           # shortlist-subsetted alignments + TSVs
 ├── scripts/
 │   ├── annotate_codon_positions.py
+│   ├── build_derived_outputs.py
 │   └── validate_translations.py
 ├── requirements.txt
-└── README.md
+└── readme.md
 ```

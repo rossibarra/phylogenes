@@ -130,22 +130,22 @@ Full per-gene results: `results/codon_annotations/summary.tsv`. A cleaned versio
 
 ### Validation
 
-The validation script now reconstructs the coding slice from the codon-position TSV before translation, so it checks the annotation file rather than only ungapping the FASTA row. A previous smoke-test run sampled 10 trimmed exact-match genes at random (seed 42):
+The validation script now reconstructs the coding slice from the codon-position TSV before translation, so it checks the annotation file rather than only ungapping the FASTA row. After the confidence metadata update, 10 high-confidence genes were sampled at random (seed 42):
 
-| Gene ID | Symbol | CDS offset | Ref slice | Result |
-|---------|--------|-----------|-----------|--------|
-| 6652 | EBS3 | 144 | ref[48:567] | ✓ exact |
-| 5355 | PyrD | 216 | ref[72:387] | ✓ exact |
-| 4848 | ARC6 | 246 | ref[82:799] | ✓ exact |
-| 6914 | AT5G06260 | 33 | ref[11:422] | ✓ exact |
-| 5858 | AT2G40650 | 0 | ref[0:188] | ✓ exact |
-| 5772 | PDF1A | 240 | ref[80:267] | ✓ exact |
-| 5703 | EMB2762 | 60 | ref[20:568] | ✓ exact |
-| 5430 | AT4G29520 | 102 | ref[34:217] | ✓ exact |
-| 6913 | HCF136 | 330 | ref[110:426] | ✓ exact |
-| 5348 | SLD5 | 54 | ref[18:220] | ✓ exact |
+| Gene ID | Symbol | CDS offset | Transcript | Ref slice | Result |
+|---------|--------|-----------:|------------|-----------|--------|
+| 6631 | AT1G74530 | 177 | AT1G74530.3 | ref[59:309] | exact, 100% |
+| 5354 | AT1G18340 | 30 | AT1G18340.1 | ref[10:277] | exact, 100% |
+| 4848 | ARC6 | 246 | AT5G42480.1 | ref[82:799] | exact, 100% |
+| 6865 | AT1G22800 | 150 | AT1G22800.1 | ref[50:351] | exact, 100% |
+| 5843 | AT5G52980 | 207 | AT5G52980.1 | ref[69:187] | exact, 100% |
+| 5744 | GDC1 | 171 | AT1G50900.1 | ref[57:173] | exact, 100% |
+| 5670 | APC7 | 9 | AT2G39090.1 | ref[3:558] | exact, 100% |
+| 5428 | AT1G62730 | 30 | AT1G62730.1 | ref[10:304] | exact, 100% |
+| 6864 | NPU | 96 | AT3G51610.1 | ref[32:217] | exact, 100% |
+| 5335 | AT4G28450 | 0 | AT4G28450.1 | ref[0:452] | exact, 100% |
 
-**10/10 exact matches.** All translated sequences matched the corresponding slice of the Ensembl reference protein with 100% identity. For final analyses, run with `--all` to validate all high-confidence genes.
+**10/10 exact matches.** All TSV-reconstructed translations matched the corresponding slice of the Ensembl reference protein with 100% identity and zero coding gaps. For final analyses, run with `--all` to validate all high-confidence genes.
 
 ### High-confidence output
 

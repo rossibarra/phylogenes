@@ -1,0 +1,16 @@
+Phaseolus vulgaris
+Zea mays
+Capsicum annuum
+Solanum lycopersicum
+Amaranthus hypochondriacus
+Gossypium hirsutum
+Oryza sativa
+Helianthus annuus
+Arabidopsis thaliana
+Triticum aestivum
+Hordeum vulgare
+Setaria italica
+Sorghum bicolor
+Glycine max
+Brassica napus
+Streptanthus tortuosus

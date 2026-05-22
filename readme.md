@@ -149,6 +149,31 @@ results/high_confidence_alignments/
 └── ...  (222 pairs = 444 files total)
 ```
 
+### Species shortlist and subsetted alignments
+
+`shortlist.txt` contains 16 focal crop and model species:
+
+| Species | Notes |
+|---------|-------|
+| *Arabidopsis thaliana* | |
+| *Brassica napus* | |
+| *Streptanthus carinatus* | proxy for *S. tortuosus* (not in dataset) |
+| *Phaseolus vulgaris* | |
+| *Glycine max* | |
+| *Helianthus annuus* | |
+| *Capsicum annuum* | |
+| *Solanum lycopersicum* | |
+| *Amaranthus hypochondriacus* | |
+| *Gossypium hirsutum* | |
+| *Oryza sativa* | matched on prefix (includes subspecies) |
+| *Triticum aestivum* | |
+| *Hordeum vulgare* | |
+| *Zea mays* | |
+| *Setaria italica* | |
+| *Sorghum bicolor* | |
+
+For each of the 222 high-confidence genes, alignments were subsetted to these species only and copied alongside their annotation TSVs to `results/shortlist_files/`. 44 genes are missing at least one shortlist species in their alignment (most commonly *Streptanthus carinatus*, absent from 24 genes); those files contain fewer than 16 sequences. The annotation TSVs are copied as-is since column indices are independent of which species are present.
+
 ## Setup
 
 ```bash
@@ -170,9 +195,12 @@ phylogenes/
 │   └── alignments/
 │       ├── file_list.txt          # source file list with sizes
 │       └── {id}.dna.aln.fasta    # one alignment per gene
+├── shortlist.txt                  # 16 focal species for subsetting
 ├── results/
 │   ├── codon_annotations/         # per-gene TSVs + summary.tsv
-│   └── high_confidence_alignments/ # exact-match genes: FASTA + TSV pairs
+│   ├── per_gene_notes.tsv         # cleaned annotation category table
+│   ├── high_confidence_alignments/ # exact-match genes: FASTA + TSV pairs
+│   └── shortlist_files/           # shortlist-subsetted alignments + TSVs
 ├── scripts/
 │   ├── annotate_codon_positions.py
 │   └── validate_translations.py

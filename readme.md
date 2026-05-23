@@ -1,6 +1,6 @@
 # phylogenes
 
-Tools for annotating and analyzing multi-species gene alignments in the context of *Arabidopsis thaliana* gene models.
+Annotations of multi-species gene alignments in the context of *Arabidopsis thaliana* gene models.
 
 ## Overview
 
